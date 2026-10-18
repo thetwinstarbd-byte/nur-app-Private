@@ -52,25 +52,155 @@ nav button[aria-current="true"]{color:var(--au);font-weight:700}
 .zf{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0;border-top:1px solid var(--ln);font-size:14px}
 .zf input{width:120px;text-align:right;background:var(--bg);border:1px solid var(--ln);border-radius:8px;padding:6px 8px;color:var(--tx);font:inherit}
 details.card{padding:0 16px}summary{padding:14px 0;font-weight:700;cursor:pointer}
+/*CB*/
+.tl{position:relative;height:46px;margin-top:18px}
+.tl .bar{position:absolute;left:0;right:0;top:8px;height:6px;border-radius:3px;background:rgba(255,255,255,.18)}
+.tl .bar i{position:absolute;left:0;top:0;bottom:0;border-radius:3px;background:var(--au)}
+.tl .now{position:absolute;top:2px;width:18px;height:18px;margin-left:-9px;border-radius:50%;background:#fff;border:4px solid var(--au)}
+.tl span{position:absolute;top:24px;font-size:11px;transform:translateX(-50%);opacity:.85;white-space:nowrap}
+.tl em{position:absolute;top:5px;width:2px;height:12px;background:rgba(255,255,255,.5)}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:12px}
+.chip{background:rgba(255,255,255,.14);border-radius:999px;padding:3px 12px;font-size:13px}
+.hero .cd{margin-top:4px}
+/*CBEND*/
+/*C1*/
+nav svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+nav button i{display:block;line-height:0;margin-bottom:3px}
+.lg{display:flex;align-items:center;gap:10px}.lg svg{width:42px;height:42px;flex:none}
+.card{box-shadow:0 1px 2px rgba(16,32,46,.05),0 8px 20px rgba(16,32,46,.06)}
+.jm{border-color:var(--au)}.bl{margin:0;padding:0 0 10px 20px;color:var(--mu);font-size:14px}.bl li{margin:4px 0}
+.sub{padding:10px 0 2px;color:var(--mu);font-size:13px;border-top:1px solid var(--ln)}
+/*C1END*/
+/*C2*/
+.hero{position:relative;overflow:hidden;padding:24px 22px;border-radius:24px;box-shadow:0 12px 30px rgba(14,42,71,.28)}
+.hero::before{content:"";position:absolute;right:-70px;top:-70px;width:240px;height:240px;border-radius:50%;background:radial-gradient(circle,rgba(217,173,75,.38),transparent 65%);pointer-events:none}
+.hero>*{position:relative}
+.hero h2{font-size:38px}.hero .cd{font-size:50px}
+.pg{font-size:22px;font-weight:700;margin:4px 2px 2px}
+.sm{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px}
+.sm div{background:var(--cd);border:1px solid var(--ln);border-radius:14px;padding:10px 6px;text-align:center;font-size:12px;color:var(--mu)}
+.sm b{display:block;font-size:20px;color:var(--tx)}
+.qa{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px}
+.qa button{background:var(--cd);border:1px solid var(--ln);border-radius:14px;padding:12px 4px;display:flex;flex-direction:column;align-items:center;gap:6px;font-size:13px}
+.qa svg{width:26px;height:26px;fill:none;stroke:var(--au);stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+/*C2END*/
+/*C3*/
+.ic{display:grid;place-items:center;width:44px;height:44px;border-radius:14px;background:linear-gradient(145deg,rgba(217,173,75,.28),rgba(22,80,122,.14));flex:none}
+.ic svg{width:24px;height:24px;fill:none;stroke:var(--au);stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.ic.big{width:72px;height:72px;border-radius:22px}.ic.big svg{width:38px;height:38px}
+.qa button{border-radius:16px;padding:12px 4px;gap:8px;font-size:12px;line-height:1.3}
+nav button[aria-current="true"] i{background:rgba(217,173,75,.2);border-radius:12px;padding:4px 16px;margin-bottom:0}
+.hq{margin-top:18px;padding-top:14px;border-top:1px solid rgba(255,255,255,.18)}
+.hq p{opacity:1}.hq .lb{color:var(--au);font-size:12px;font-weight:700;margin-bottom:4px}
+.hq .ar{font:700 20px/1.9 'Noto Naskh Arabic',serif;direction:rtl;text-align:right;margin:0}
+.hq .mn{color:#e8eff5;font-size:14px;margin:4px 0}.hq .src{color:var(--au);font-size:12px}
+.am{padding:14px 16px}.amt{display:flex;align-items:center;gap:12px}.amt div{flex:1}.amt small{display:block;color:var(--mu);font-size:12px}.rg{width:48px;height:48px}
+.lk{border:0;background:none;color:var(--au);font-weight:700;font-size:13px}
+.mc{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+.mc div{background:var(--bg);border-radius:12px;padding:8px 4px;text-align:center;font-size:12px;color:var(--mu)}.mc b{display:block;font-size:16px;color:var(--tx)}.mc .ok b{color:var(--ok)}
+.mo{display:flex;align-items:center;gap:12px;width:100%;text-align:left}.mo span:nth-child(2){flex:1}.mo small{display:block;color:var(--mu);font-size:12px}.mo i{font-style:normal;color:var(--au);font-size:22px}
+.fg{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fg button{background:var(--cd);border:1px solid var(--ln);border-radius:16px;padding:14px 12px;display:flex;flex-direction:column;align-items:flex-start;gap:8px;text-align:left}
+.fg small{color:var(--mu);font-size:12px}
+.sh{position:fixed;inset:0;z-index:50;display:flex;align-items:flex-end}
+.shb{position:absolute;inset:0;background:rgba(5,15,25,.55)}
+.shp{position:relative;width:100%;max-width:560px;margin:0 auto;max-height:88vh;overflow:auto;background:var(--bg);border-radius:24px 24px 0 0;padding:16px 16px calc(24px + env(safe-area-inset-bottom,0px))}
+.shh{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}.shh b{font-size:19px}
+.shh button{width:36px;height:36px;border-radius:50%;border:1px solid var(--ln);background:var(--cd)}
+.gt{font-weight:700;color:var(--tx)!important;font-size:14px!important}
+.chip2{display:inline-block;background:rgba(217,173,75,.2);color:var(--au);border-radius:999px;padding:2px 12px;font-size:12px;font-weight:700;margin-top:8px}
+/*C3END*/
+/*C4*/
+.hero{padding:16px 16px 12px;border-radius:20px}
+.hero h2{font-size:26px}.hero .cd{font-size:30px;margin-top:2px}
+.hg{display:flex;gap:12px;align-items:stretch}.hl{flex:1;min-width:0}
+.hqr{flex:1.05;min-width:0;border:0;border-left:1px solid rgba(255,255,255,.22);background:none;color:#fff;text-align:left;padding:0 0 0 12px;display:flex;flex-direction:column;gap:4px;font:inherit}
+.hqr b{color:var(--au);font-size:12px}.hqr span{font-size:13px;line-height:1.5;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}.hqr small{color:rgba(255,255,255,.7);font-size:11px;margin-top:auto}
+.tl{height:40px;margin-top:10px}.chips{margin-top:6px}
+nav button[aria-current="true"] svg{fill:rgba(217,173,75,.28)}
+.seg{display:flex;gap:6px;background:var(--cd);border:1px solid var(--ln);border-radius:12px;padding:4px;margin-bottom:10px}
+.seg button{flex:1;border:0;background:none;border-radius:9px;padding:8px 2px;font-size:13px}.seg .on{background:var(--au);color:#10202e;font-weight:700}
+.gf{text-align:center;background:var(--bg);border-radius:14px;padding:6px;margin-bottom:8px}
+.fig{width:130px;height:130px}.fig path,.fig circle{fill:none;stroke:var(--au);stroke-width:6;stroke-linecap:round;stroke-linejoin:round}.fig circle{fill:var(--au);stroke:none}.fig .gd{stroke:var(--ln);stroke-width:3}
+.rc{background:var(--bg);border-radius:12px;padding:4px 12px;margin:6px 0}.rc .ar{font-size:19px;line-height:2}.rc .mn{margin:0 0 8px;font-size:13px}
+/*C4END*/
+/*C5*/
+.rg30{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.dy{height:38px;border-radius:10px;border:1px solid var(--ln);background:var(--bg);font-size:13px}
+.dy.c1{background:rgba(31,138,99,.2)}.dy.c2{background:rgba(31,138,99,.45)}.dy.c3{background:var(--ok);color:#fff}.dy.td{outline:2px solid var(--au)}
+.pb{height:8px;background:var(--ln);border-radius:4px;overflow:hidden;margin:6px 0}.pb i{display:block;height:100%;background:var(--au)}
+.sp{position:fixed;inset:0;z-index:100;background:linear-gradient(150deg,#0e2a47,#16507a);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;text-align:center;padding:24px;transition:opacity .4s}.sp.out{opacity:0}
+.sp svg{width:84px;height:84px}.sp h1{margin:0;font-size:30px}.sp .ar{font:700 24px/1.9 'Noto Naskh Arabic',serif;margin:0;color:#d9ad4b}.sp small{max-width:320px;opacity:.85;font-size:14px}
+/*C5END*/
+/*C6*/
+.bot{display:flex;align-items:center;gap:12px;margin-top:12px;padding:8px 12px;border-radius:18px;background:linear-gradient(135deg,var(--h1),var(--h2));color:#fff;cursor:pointer;box-shadow:0 6px 16px rgba(14,42,71,.25)}
+.bot b{display:block;font-size:15px}.bot small{opacity:.8;font-size:12px}.bot .bt1{flex:1}
+.bot .bmic{width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.16);display:grid;place-items:center}
+.bot svg.x,.bmic svg,.bi svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.av{display:inline-block;width:46px;height:46px;flex:none;animation:bob 3s ease-in-out infinite}.av.big{width:84px;height:84px}.av svg{width:100%;height:100%}
+.av .bd{transform-origin:32px 34px}.av.talk .bd{animation:bd .32s ease-in-out infinite alternate}.av .wv{opacity:0}.av.talk .wv{animation:wv 1s ease-in-out infinite}
+@keyframes bob{50%{transform:translateY(-2px)}}@keyframes bd{to{transform:scaleY(1.08)}}@keyframes wv{50%{opacity:.9}}
+@media(prefers-reduced-motion:reduce){.av,.av .bd,.av .wv{animation:none!important}}
+.bt{display:flex;gap:12px;align-items:center;margin-bottom:8px}.bt p{margin:0;color:var(--mu);font-size:14px}
+.bm{max-height:38vh;overflow:auto;display:flex;flex-direction:column;gap:8px;margin:8px 0}
+.m{max-width:88%;padding:8px 12px;border-radius:14px;font-size:14px;line-height:1.55}
+.m.u{align-self:flex-end;background:var(--au);color:#10202e;border-bottom-right-radius:4px}.m.b{align-self:flex-start;background:var(--cd);border:1px solid var(--ln);border-bottom-left-radius:4px}
+.sg{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}.sg button{border:1px solid var(--ln);background:var(--cd);border-radius:999px;padding:4px 12px;font-size:12px}
+.bi{display:flex;gap:8px;align-items:center;margin-top:8px}.bi #bq{flex:1;min-width:0;background:var(--cd);border:1px solid var(--ln);border-radius:14px;padding:10px 12px;color:var(--tx);font:inherit}
+.bi button{width:42px;height:42px;border-radius:50%;border:0;background:var(--h2);color:#fff;display:grid;place-items:center}.bi #bmic.on{background:#c0392b}
+.vo{display:block;font-size:12px;color:var(--mu);margin-top:8px}
+/*C6END*/
+/*C7*/
+.cal{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}.cal b{font-size:11px;color:var(--mu)}.cal i{display:block}
+.cal div{padding:5px 0;border-radius:10px;font-size:14px;line-height:1.2}.cal small{display:block;font-size:9px;color:var(--mu)}
+.cal .t{background:var(--au);color:#10202e}.cal .t small{color:#10202e}.cal .f{background:rgba(31,138,99,.14)}.cal .e{outline:1.5px solid var(--au)}
+.qo{display:block;width:100%;text-align:left;margin-top:8px;padding:12px;border-radius:12px;border:1px solid var(--ln);background:var(--cd)}
+.qo.ok{border-color:var(--ok);background:rgba(31,138,99,.15)}.qo.no{border-color:#c0392b;background:rgba(192,57,43,.12)}
+/*C7END*/
+/*C8*/
+.adv{margin-top:10px;font-size:13px;color:var(--mu)}.adv summary{cursor:pointer;padding:4px 0}
+.adv .zf{flex-direction:column;align-items:stretch}.adv .zf input{width:100%;text-align:left}
+/*C8END*/
+/*C9*/
+section:not([hidden]){animation:fi .35s ease both}
+@keyframes fi{from{opacity:0;transform:translateY(8px)}}@keyframes up{from{opacity:0;transform:translateY(18px) scale(.98)}}
+@keyframes su{from{transform:translateY(44px);opacity:0}}@keyframes fd{from{opacity:0}}@keyframes pop{from{transform:scale(.78)}}@keyframes tb{50%{transform:translateY(-4px);opacity:.5}}@keyframes gl{to{transform:translate(-14px,10px) scale(1.12)}}
+.fx #home>*{animation:up .5s cubic-bezier(.2,.8,.2,1) both}.fx #home>*:nth-child(2){animation-delay:.06s}.fx #home>*:nth-child(3){animation-delay:.12s}.fx #home>*:nth-child(4){animation-delay:.18s}.fx #home>*:nth-child(5){animation-delay:.24s}
+.shp{animation:su .32s cubic-bezier(.2,.8,.2,1)}.shb{animation:fd .25s ease}
+button{transition:transform .12s ease,background .2s ease}button:active{transform:scale(.96)}
+.ck.on{animation:pop .3s cubic-bezier(.3,1.6,.5,1)}nav button[aria-current="true"] i{animation:pop .35s cubic-bezier(.3,1.6,.5,1)}
+#tbar{transition:width 1s linear}#tnow{transition:left 1s linear}.hero::before{animation:gl 7s ease-in-out infinite alternate}.sp svg{animation:pop .6s cubic-bezier(.3,1.6,.5,1)}
+.ty{display:flex;gap:5px;padding:12px 14px}.ty i{width:7px;height:7px;border-radius:50%;background:var(--mu);animation:tb 1s ease-in-out infinite}.ty i:nth-child(2){animation-delay:.15s}.ty i:nth-child(3){animation-delay:.3s}
+.srs{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}.sr{font-size:11px;padding:2px 10px;border-radius:999px;background:rgba(217,173,75,.18);color:var(--au);text-decoration:none}.m a{color:var(--au)}
+.qf{width:100%;background:var(--cd);border:1px solid var(--ln);border-radius:14px;padding:10px 12px;color:var(--tx);font:inherit;margin-bottom:8px}
+.qr{display:flex;align-items:center;gap:12px;width:100%;text-align:left;padding:10px 12px;margin-bottom:6px;border-radius:14px;border:1px solid var(--ln);background:var(--cd)}
+.qr .n{flex:1}.qr small{display:block;color:var(--mu);font-size:11px}.qr .ar{font-size:20px;line-height:1.6}
+.an{display:inline-grid;place-items:center;min-width:30px;height:30px;border-radius:50%;background:rgba(217,173,75,.2);color:var(--au);font-size:12px;font-weight:700}
+.qh{display:flex;flex-direction:column;align-items:center;gap:2px;margin-bottom:10px}.qh button{align-self:flex-start;border:0;background:none;color:var(--au);font-weight:700}.qh .ar{font-size:28px}.qh small{color:var(--mu)}
+.ay{background:var(--cd);border:1px solid var(--ln);border-radius:16px;padding:10px 14px;margin-bottom:8px}.ay .ar{font-size:26px;line-height:2.2;margin:6px 0}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+/*C9END*/
 [hidden]{display:none!important}
 @media(prefers-reduced-motion:reduce){*{transition:none!important}}
 </style></head>
-<body><div id="w">
-<header><div><h1>নূর</h1><small id="dt"></small></div>
+<body><div id="sp" class="sp"></div><div id="w">
+<div id="bot" class="bot" data-sh="bot" role="button" tabindex="0" aria-label="ইসলামি সহকারী খুলুন"></div>
+<header><div class="lg"><svg viewBox="0 0 64 64" aria-hidden="true"><defs><linearGradient id="lgd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#16507a"/><stop offset="1" stop-color="#0e2a47"/></linearGradient><mask id="lcm"><rect width="64" height="64" fill="#fff"/><circle cx="37" cy="29" r="14.5" fill="#000"/></mask></defs><rect width="64" height="64" rx="16" fill="url(#lgd)"/><circle cx="30" cy="34" r="17" fill="#d9ad4b" mask="url(#lcm)"/><path d="M45 17l2 4.6 4.6 2-4.6 2-2 4.6-2-4.6-4.6-2 4.6-2z" fill="#d9ad4b"/></svg><div><h1>নূর</h1><small id="dt"></small></div></div>
 <div class="hr"><select id="ct" aria-label="শহর"></select><button id="th" aria-label="থিম বদলান">◐</button></div></header>
 <main>
 <section id="home"></section>
-<section id="tasbih" hidden></section>
-<section id="qibla" hidden></section>
-<section id="dua" hidden></section>
-<section id="more" hidden></section>
+<section id="pray" hidden><h2 class="pg">নামাজ</h2><div id="prl"></div><div id="qibla"></div></section>
+<section id="fast" hidden><h2 class="pg">রোজা</h2><div id="fastc"></div></section>
+<section id="dhikr" hidden><h2 class="pg">দোয়া ও জিকির</h2><div id="tasbih"></div><div id="dua"></div><div id="sur"></div></section>
+<section id="more" hidden><h2 class="pg">আরও</h2><div id="morec"></div></section>
 </main>
+<div id="sh" class="sh" hidden><div class="shb" data-x></div><div class="shp"><div class="shh"><b id="sht"></b><button data-x aria-label="বন্ধ করুন">✕</button></div><div id="shc"></div></div></div>
 <nav>
-<button data-t="home" aria-current="true"><i>🕌</i>নামাজ</button>
-<button data-t="tasbih"><i>📿</i>তাসবিহ</button>
-<button data-t="qibla"><i>🧭</i>কিবলা</button>
-<button data-t="dua"><i>🤲</i>দোয়া</button>
-<button data-t="more"><i>✨</i>আরও</button>
+<button data-t="home" aria-current="true"><i><svg viewBox="0 0 24 24"><path d="M3 11l9-7 9 7M5 10v10h14V10M10 20v-5a2 2 0 0 1 4 0v5"/></svg></i>হোম</button>
+<button data-t="pray"><i><svg viewBox="0 0 24 24"><path d="M4 21V8l1-2 1 2v13M18 21V8l1-2 1 2v13M7 21v-6a5 5 0 0 1 10 0v6M12 10V4M3 21h18"/></svg></i>নামাজ</button>
+<button data-t="fast"><i><svg viewBox="0 0 24 24"><path d="M12 2v2M9.5 4h5M8 8c0-1.7 1.8-3 4-3s4 1.3 4 3v8c0 1.7-1.8 3-4 3s-4-1.3-4-3zM8 11h8M8 15h8M12 19v3"/></svg></i>রোজা</button>
+<button data-t="dhikr"><i><svg viewBox="0 0 24 24"><path d="M3 8c3-1.5 6-1.5 9 0 3-1.5 6-1.5 9 0v9c-3-1.5-6-1.5-9 0-3-1.5-6-1.5-9 0zM12 8v9M8 21l4-3 4 3"/></svg></i>দোয়া</button>
+<button data-t="more"><i><svg viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="2"/><rect x="13" y="4" width="7" height="7" rx="2"/><rect x="4" y="13" width="7" height="7" rx="2"/><rect x="13" y="13" width="7" height="7" rx="2"/></svg></i>আরও</button>
 </nav></div>
 <script>
 const $=s=>document.querySelector(s),bn=n=>String(n).replace(/\d/g,d=>'০১২৩৪৫৬৭৮৯'[d]);
@@ -102,27 +232,292 @@ function nxt(){const n=Date.now();for(const[k]of P){if(k!=='sunrise'&&T[k]>n)ret
 const nm=k=>P.find(p=>p[0]===k)[1];
 function hij(){const a=ld('ha',0),p={};new Intl.DateTimeFormat('en-u-ca-islamic-umalqura',{day:'numeric',month:'numeric',year:'numeric'}).formatToParts(Date.now()+a*864e5).forEach(x=>p[x.type]=x.value);return bn(p.day)+' '+HM[(p.month-1+12)%12]+' '+bn(parseInt(p.year))+' হি.'}
 function head(){const g=new Date().toLocaleDateString('bn-BD',{weekday:'long',day:'numeric',month:'long',timeZone:'Asia/Dhaka'});$('#dt').textContent=g+' · '+hij()}
+const QT=[
+['فَاذْكُرُونِي أَذْكُرْكُمْ','তোমরা আমাকে স্মরণ করো, আমিও তোমাদের স্মরণ করব।','সূরা বাকারা ২:১৫২'],
+['','তোমাদের মধ্যে সর্বোত্তম সেই ব্যক্তি, যে কুরআন শেখে ও শেখায়।','হাদিস – বুখারি'],
+['إِنَّ اللَّهَ مَعَ الصَّابِرِينَ','নিশ্চয়ই আল্লাহ ধৈর্যশীলদের সঙ্গে আছেন।','সূরা বাকারা ২:১৫৩'],
+['','নিশ্চয়ই সকল আমল নিয়তের ওপর নির্ভরশীল।','হাদিস – বুখারি ও মুসলিম'],
+['وَمَنْ يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُ','যে আল্লাহর ওপর ভরসা করে, তার জন্য তিনিই যথেষ্ট।','সূরা তালাক ৬৫:৩'],
+['','প্রকৃত মুসলিম সে, যার জিহ্বা ও হাত থেকে অন্য মুসলিম নিরাপদ থাকে।','হাদিস – বুখারি ও মুসলিম'],
+['لَا تَقْنَطُوا مِنْ رَحْمَةِ اللَّهِ','আল্লাহর রহমত থেকে নিরাশ হয়ো না।','সূরা যুমার ৩৯:৫৩'],
+['','পবিত্রতা ঈমানের অর্ধেক।','হাদিস – মুসলিম'],
+['وَاسْتَعِينُوا بِالصَّبْرِ وَالصَّلَاةِ','তোমরা ধৈর্য ও নামাজের মাধ্যমে সাহায্য প্রার্থনা করো।','সূরা বাকারা ২:৪৫'],
+['','তোমরা সহজ করো, কঠিন করো না; সুসংবাদ দাও, বিরক্তি সৃষ্টি করো না।','হাদিস – বুখারি ও মুসলিম'],
+['إِنَّ اللَّهَ يُحِبُّ التَّوَّابِينَ','নিশ্চয়ই আল্লাহ তওবাকারীদের ভালোবাসেন।','সূরা বাকারা ২:২২২'],
+['','তোমাদের কেউ প্রকৃত ঈমানদার হয় না, যতক্ষণ না সে নিজের জন্য যা ভালোবাসে, তার ভাইয়ের জন্যও তা ভালোবাসে।','হাদিস – বুখারি ও মুসলিম'],
+['وَمَنْ يَتَّقِ اللَّهَ يَجْعَلْ لَهُ مَخْرَجًا','যে আল্লাহকে ভয় করে, তিনি তার জন্য পথ বের করে দেন।','সূরা তালাক ৬৫:২'],
+['','তোমার ভাইয়ের সামনে তোমার হাসিও সদকা।','হাদিস – তিরমিযি'],
+['وَهُوَ مَعَكُمْ أَيْنَ مَا كُنْتُمْ','তোমরা যেখানেই থাকো, তিনি তোমাদের সঙ্গে আছেন।','সূরা হাদিদ ৫৭:৪'],
+['','যে অন্যের প্রতি দয়া করে না, তার প্রতি দয়া করা হয় না।','হাদিস – বুখারি ও মুসলিম'],
+['وَلَذِكْرُ اللَّهِ أَكْبَرُ','আল্লাহর স্মরণই সবচেয়ে বড়।','সূরা আনকাবুত ২৯:৪৫'],
+['','যে ব্যক্তি আল্লাহ ও আখিরাতে বিশ্বাস রাখে, সে যেন ভালো কথা বলে, নয়তো চুপ থাকে।','হাদিস – বুখারি ও মুসলিম']];
+function qtCard(){const[y,m,d]=dp(),q=QT[Math.floor(Date.UTC(y,m-1,d)/864e5)%QT.length];return `<div class="card"><div class="ch"><b>${q[0]?'আজকের আয়াত':'আজকের হাদিস'}</b></div>${q[0]?`<p class="ar">${q[0]}</p>`:''}<p class="mn">${q[1]}</p><p class="src">${q[2]}</p></div>`}
+/*HB*/
+function cur(){const n=Date.now(),a=['fajr','dhuhr','asr','maghrib','isha'],e={fajr:'sunrise',dhuhr:'asr',asr:'maghrib',maghrib:'isha',isha:null};if(n<T.fajr)return'isha';for(const k of a){const end=e[k]?T[e[k]]:T2.fajr;if(n>=T[k]&&n<end)return k}return null}
+function streak(){const[y,m,d]=dp();let n=0;for(let i=0;i<400;i++){const t=new Date(Date.UTC(y,m-1,d-i)),k=[t.getUTCFullYear(),t.getUTCMonth()+1,t.getUTCDate()].join('-');if(ld('tr:'+k,[]).length>=5)n++;else if(i>0)break}return n}
+const pc=t=>Math.max(0,Math.min(100,(t-T.fajr)/(T.isha-T.fajr)*100));
+function tlUpdate(){const p=pc(Date.now()),b=$('#tbar'),n=$('#tnow');if(b){b.style.width=p+'%';n.style.left=p+'%'}}
+function heroB(nk,tr){const c=cur(),t=nxt()[1],sn=streak();
+ return `<div class="hero"><p>${c?'এখন চলছে':'পরবর্তী ওয়াক্ত'}</p><h2>${nm(c||nk)}</h2><div class="cd" id="cd"></div><p>${nm(nk)}-এর ওয়াক্ত শুরু হতে বাকি (${ft(t)})</p>
+ <div class="tl"><div class="bar"><i id="tbar"></i></div><div class="now" id="tnow"></div>${['fajr','sunrise','dhuhr','asr','maghrib','isha'].map(k=>`<em style="left:${pc(T[k])}%"></em><span style="left:${Math.min(Math.max(pc(T[k]),4),96)}%">${k==='sunrise'?'সূর্য':nm(k)}</span>`).join('')}</div>
+ <div class="chips">${sn?`<span class="chip">🔥 ${bn(sn)} দিন</span>`:''}<span class="chip">✓ ${bn(tr.length)}/৫ আদায়</span></div>${qtHero()}</div>`}
+/*HBEND*/
+/*F1*/
+const AG=[['সুন্নত ও নফল নামাজ',[['r','সুন্নাতে মুয়াক্কাদা'],['w','বিতর'],['t','তাহাজ্জুদ'],['i','ইশরাক ও চাশত'],['a','আওয়াবিন']]],['কুরআন ও জিকির',[['q','কুরআন তিলাওয়াত'],['m','সকালের জিকির'],['e','সন্ধ্যার জিকির'],['d','দরুদ পাঠ'],['g','ইস্তিগফার']]],['দান ও ভালো কাজ',[['s','সদকা'],['p','মা-বাবার খেদমত ও দোয়া'],['k','সালাম ও সদাচরণ']]]];const AM=AG.flatMap(g=>g[1]);
+function amalCard(){const a=ld('am:'+dk,[]);return `<div class="card"><div class="ch"><b>আজকের আমল</b><span>${bn(a.length)}/${bn(AM.length)}</span></div>${AM.map(([k,n])=>`<div class="row"><span class="n">${n}</span><button class="ck${a.includes(k)?' on':''}" data-a="${k}" aria-label="${n}">✓</button></div>`).join('')}</div>`}
+$('#w').addEventListener('click',e=>{const b=e.target.closest('button[data-a]');if(!b)return;const k='am:'+dk,a=ld(k,[]),i=a.indexOf(b.dataset.a);i<0?a.push(b.dataset.a):a.splice(i,1);sv(k,a);drawHome();drawM();renderSh()});
+function jumaCard(){if(new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'Asia/Dhaka'}).format(Date.now())!=='Fri')return'';return `<div class="card jm"><div class="ch"><b>জুমার দিন</b><span>যোহর ${ft(T.dhuhr)}</span></div><ul class="bl"><li>গোসল করে পরিষ্কার পোশাক পরুন</li><li>আগেভাগে মসজিদে যান</li><li>সূরা কাহফ তিলাওয়াত করুন</li><li>বেশি বেশি দরুদ পড়ুন ও দোয়া করুন</li></ul></div>`}
+function forbCard(){const m=6e4,r=(a,b)=>ft(a)+' – '+ft(b),L=a=>a.map(([n,v])=>`<div class="row"><span class="n">${n}</span><span class="t">${v}</span></div>`).join('');
+ return `<div class="card"><div class="ch"><b>ওয়াক্ত শেষ ও নিষিদ্ধ সময়</b></div>${L([['ফজর শেষ',ft(T.sunrise)],['যোহর শেষ',ft(T.asr)],['আসর শেষ',ft(T.maghrib)],['মাগরিব শেষ',ft(T.isha)]])}<div class="sub">নামাজ পড়া নিষিদ্ধ সময় (আনুমানিক)</div>${L([['সূর্যোদয়',r(T.sunrise,T.sunrise+15*m)],['ঠিক দুপুর',r(T.dhuhr-6*m,T.dhuhr)],['সূর্যাস্ত',r(T.maghrib-15*m,T.maghrib)]])}</div>`}
+const HF=new Intl.DateTimeFormat('en-u-ca-islamic-umalqura',{day:'numeric',month:'numeric'}),EV=[['রমজান শুরু',9,1],['ঈদুল ফিতর',10,1],['আরাফার দিন',12,9],['ঈদুল আযহা',12,10],['আশুরা',1,10]];
+function daysCard(){const a=ld('ha',0),h=i=>{const p={};HF.formatToParts(Date.now()+(a+i)*864e5).forEach(x=>p[x.type]=+x.value);return p};
+ const r=EV.map(([n,m,d])=>{for(let i=0;i<360;i++){const p=h(i);if(p.month===m&&p.day===d)return[n,i]}return null}).filter(Boolean).sort((x,y)=>x[1]-y[1]).slice(0,3);
+ return `<div class="card"><div class="ch"><b>আসন্ন ইসলামি দিবস</b><span>চাঁদ দেখার ওপর নির্ভরশীল</span></div>${r.map(([n,i])=>`<div class="row"><span class="n">${n}</span><span class="t">${i?bn(i)+' দিন বাকি':'আজ'}</span></div>`).join('')}</div>`}
+/*F1END*/
+/*F2*/
+const IC={q:'<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg>',t:'<svg viewBox="0 0 24 24"><circle cx="12" cy="5" r="2"/><circle cx="18" cy="9" r="2"/><circle cx="18" cy="16" r="2"/><circle cx="12" cy="20" r="2"/><circle cx="6" cy="16" r="2"/><circle cx="6" cy="9" r="2"/></svg>',b:'<svg viewBox="0 0 24 24"><path d="M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5V19c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z"/><path d="M12 6v13.5"/></svg>',z:'<svg viewBox="0 0 24 24"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M8 7h8M8 12h2M12 12h2M8 16h2M12 16h2"/></svg>'};
+function homeX(){const a=ld('am:'+dk,[]);return `<div class="sm"><div><b>${bn(a.length)}/${bn(AM.length)}</b>আজকের আমল</div><div><b>${bn(ld('tt:'+dk,0))}</b>আজকের তাসবিহ</div><div><b>${bn(ld('fs',[]).length)}</b>মোট রোজা</div></div><div class="qa">${[['pray','qibla','কিবলা','q'],['dhikr','tasbih','তাসবিহ','t'],['dhikr','dua','দোয়া','b'],['more','more','যাকাত','z']].map(([g,t,n,i])=>`<button data-go="${g}" data-to="${t}">${IC[i]}<span>${n}</span></button>`).join('')}</div>`}
+$('#fast').addEventListener('click',e=>{if(e.target.id==='fs'){const a=ld('fs',[]),i=a.indexOf(dk);i<0?a.push(dk):a.splice(i,1);sv('fs',a);drawM();drawHome()}});
+$('#w').addEventListener('click',e=>{const b=e.target.closest('[data-go]');if(!b)return;go(b.dataset.go);const t=$('#'+b.dataset.to);if(t&&b.dataset.to!==b.dataset.go)t.scrollIntoView()});
+/*F2END*/
+/*F3*/
+const SV=(p)=>'<svg viewBox="0 0 24 24">'+p+'</svg>';
+const IX={kaaba:SV('<path d="M5 8l7-3 7 3v10l-7 3-7-3z"/><path d="M5 8l7 3 7-3M12 11v10"/>'),t:SV('<circle cx="12" cy="5" r="2"/><circle cx="18" cy="9" r="2"/><circle cx="18" cy="16" r="2"/><circle cx="12" cy="20" r="2"/><circle cx="6" cy="16" r="2"/><circle cx="6" cy="9" r="2"/>'),b:SV('<path d="M4 5.5C6.5 4.5 9.5 4.5 12 6c2.5-1.5 5.5-1.5 8-.5V19c-2.5-1-5.5-1-8 .5-2.5-1.5-5.5-1.5-8-.5z"/><path d="M12 6v13.5"/>'),z:SV('<circle cx="12" cy="12" r="8.5"/><path d="M12 7.5v9M9.5 10c0-1 1-1.6 2.5-1.6s2.5.7 2.5 1.7c0 2.3-5 1.3-5 3.6 0 1 1 1.7 2.5 1.7s2.5-.5 2.5-1.5"/>'),
+guide:SV('<path d="M6 21V10a6 6 0 0 1 12 0v11M9 21v-9a3 3 0 0 1 6 0v9"/>'),names:SV('<circle cx="12" cy="12" r="9"/><path d="M12 7l1.5 3.2 3.5.4-2.6 2.3.7 3.4-3.1-1.7-3.1 1.7.7-3.4L7 10.6l3.5-.4z"/>'),ram:SV('<path d="M19 14.5A8 8 0 1 1 9.5 5a6.5 6.5 0 0 0 9.5 9.5z"/><path d="M17 3v4M15 5h4"/>'),khatam:SV('<path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M9 9h6M9 13h4"/>'),alarm:SV('<circle cx="12" cy="13" r="7"/><path d="M12 9v4l2.5 1.5M5 4L3 6M19 4l2 2"/>'),quiz:SV('<circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.5 2.5 0 1 1 3.5 2.3c-.7.4-1 .9-1 1.7M12 17h.01"/>'),sad:SV('<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>'),fitra:SV('<path d="M4 10h16l-1.5 9h-13zM8 10l3-6M16 10l-3-6"/>'),cal:SV('<rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16M14.5 18a3 3 0 1 1-2.4-4.8 2.4 2.4 0 0 0 2.4 4.8z"/>'),all:SV('<rect x="4" y="4" width="7" height="7" rx="2"/><rect x="13" y="4" width="7" height="7" rx="2"/><rect x="4" y="13" width="7" height="7" rx="2"/><rect x="13" y="13" width="7" height="7" rx="2"/>'),moon:SV('<path d="M20 14.5A8.5 8.5 0 1 1 9.5 4a7 7 0 0 0 10.5 10.5z"/>')};
+const FT=[['guide','নামাজ শিক্ষা','guide','নামাজের প্রতিটি রুকনের আলাদা ছবি ও নিয়ম, প্রয়োজনীয় সূরা ও দোয়া, এবং জুমা, ঈদ, জানাযা, বিতর, সফর ও তারাবিহের আলাদা নিয়ম।'],['names','৯৯ নাম','names','আল্লাহর ৯৯ নাম আরবি, উচ্চারণ ও বাংলা অর্থসহ, প্রতিদিন একটি করে নাম শেখার সুবিধা।'],['ram','রমজান ট্র্যাকার','ram','৩০ দিনের রোজা, তারাবিহ ও কুরআন পাঠের ট্র্যাকার, ইফতারের দোয়া ও শেষ দশ রাতের তালিকা।'],['khatam','কুরআন খতম','khatam','কত দিনে খতম করতে চান বললে প্রতিদিন কতটুকু পড়তে হবে তার হিসাব ও অগ্রগতি।'],['alarm','ফজরের অ্যালার্ম','alarm','ফজরে ওঠার জন্য আলাদা অ্যালার্ম, যা আজানের শব্দে বাজবে।'],['quiz','দৈনিক কুইজ','quiz','প্রতিদিন একটি ইসলামি প্রশ্ন, সঠিক উত্তরে ধারাবাহিকতার পয়েন্ট।'],['hajj','হজ ও ওমরাহ','kaaba','হজ ও ওমরাহর ধাপে ধাপে গাইড, দোয়া ও প্রস্তুতির চেকলিস্ট।'],['sad','সদকা ট্র্যাকার','sad','দানের হিসাব রাখা ও মাসিক লক্ষ্য ঠিক করে অগ্রগতি দেখা।'],['fitra','ফিতরা ও কুরবানি','fitra','সাদাকাতুল ফিতর ও কুরবানির হিসাব বের করার ক্যালকুলেটর।'],['cal','হিজরি ক্যালেন্ডার','cal','পুরো হিজরি মাসের ক্যালেন্ডার ও গুরুত্বপূর্ণ তারিখ, সঙ্গে অক্ষরের সাইজ বড়-ছোট করার সেটিং।']];
+const G=[['এই মাসের মতোই ইবাদত ধরে রাখুন','তাহাজ্জুদ, কুরআন তিলাওয়াত ও জিকিরের অভ্যাস ধরে রাখুন।']];
+const MN=[[['আশুরার রোজা','১০ মুহাররমের রোজা আগের এক বছরের গুনাহের কাফফারা। সঙ্গে ৯ বা ১১ তারিখেরও একটি রোজা রাখা উত্তম।'],['মুহাররমে নফল রোজা','রমজানের পর সর্বোত্তম রোজা আল্লাহর মাস মুহাররমের রোজা (সহিহ মুসলিম)।'],['সম্মানিত মাস','এটি চারটি হারাম মাসের একটি, তাই পাপ ও জুলুম থেকে বিশেষভাবে বেঁচে থাকুন।']],
+[['কুসংস্কার বর্জন','সফর মাসকে অশুভ ভাবার কোনো ভিত্তি নেই। এ মাসেও অন্য মাসের মতোই ইবাদত করুন।'],['নিয়মিত নফল রোজা','সোম ও বৃহস্পতিবার এবং আইয়্যামে বীজের রোজা রাখুন।']],
+[['সিরাত পাঠ','নবীজি (সা.)-এর জীবনী পড়ুন ও তাঁর আদর্শ জীবনে আনুন।'],['সোমবারের রোজা','নবীজি (সা.) সোমবার রোজা রাখতেন এবং ওই দিন তাঁর জন্ম হয়েছিল (সহিহ মুসলিম)।'],['বেশি বেশি দরুদ','তাঁর ওপর দরুদ পড়া একটি বড় ইবাদত।']],
+G[0]&&[['নিয়মিত নফল ইবাদত',G[0][1]]],[['নিয়মিত নফল ইবাদত',G[0][1]]],[['নিয়মিত নফল ইবাদত',G[0][1]]],
+[['সম্মানিত মাস','রজব হারাম মাসগুলোর একটি। গুনাহ ও জুলুম থেকে বিশেষভাবে বিরত থাকুন (সূরা তাওবা ৯:৩৬)।'],['রমজানের প্রস্তুতি','নিয়মিত নফল রোজা ও ইস্তিগফারের অভ্যাস শুরু করুন।'],['সতর্কতা','রজবের নির্দিষ্ট নামাজ বা রোজার ফজিলত নিয়ে প্রচলিত বেশির ভাগ হাদিস দুর্বল বা বানোয়াট, তাই যাচাই ছাড়া আমল করবেন না।']],
+[['শাবানে বেশি রোজা','নবীজি (সা.) শাবানে অন্য মাসের চেয়ে বেশি রোজা রাখতেন (বুখারি ও মুসলিম)।'],['রমজানের প্রস্তুতি','কাযা রোজা থাকলে এ মাসেই শেষ করুন, কুরআন তিলাওয়াত বাড়ান।']],
+[['রোজা','সাহরি খান ও সময়মতো ইফতার করুন।'],['তারাবিহ ও কুরআন','ইশার পর তারাবিহ পড়ুন এবং কুরআন তিলাওয়াত ও খতমের চেষ্টা করুন।'],['শেষ দশ রাত','বিজোড় রাতগুলোতে লাইলাতুল কদর খুঁজুন, সম্ভব হলে ই’তিকাফ করুন।'],['দান ও ফিতরা','বেশি দান করুন এবং ঈদের নামাজের আগে সাদাকাতুল ফিতর আদায় করুন।']],
+[['ঈদুল ফিতর','১ শাওয়াল ঈদ। এ দিন রোজা রাখা হারাম; ঈদের নামাজ পড়ুন ও ফিতরা আদায় করুন।'],['শাওয়ালের ছয় রোজা','রমজানের পর শাওয়ালে ছয়টি রোজা রাখলে সারা বছর রোজা রাখার সওয়াব (সহিহ মুসলিম)।']],
+[['সম্মানিত মাস','হারাম মাসগুলোর একটি; জুলুম ও গুনাহ থেকে বিরত থাকুন।'],['হজের প্রস্তুতি','হজ করতে চাইলে নিয়ত এবং আর্থিক ও শারীরিক প্রস্তুতি নিন।']],
+[['প্রথম ১০ দিন','এ দিনগুলোর নেক আমল আল্লাহর কাছে সবচেয়ে প্রিয় (সহিহ বুখারি)। বেশি বেশি তাসবিহ, তাহলিল ও তাকবির পড়ুন।'],['আরাফার রোজা','৯ জিলহজের রোজা আগের ও পরের এক বছরের গুনাহের কাফফারা (সহিহ মুসলিম); হাজি ছাড়া অন্যদের জন্য।'],['তাকবিরে তাশরিক','৯ জিলহজ ফজর থেকে ১৩ জিলহজ আসর পর্যন্ত ফরজ নামাজের পর তাকবির পড়ুন (হানাফি মত)।'],['ঈদুল আযহা ও কুরবানি','১০ জিলহজ ঈদের নামাজ; কুরবানি ১০ থেকে ১২ তারিখ পর্যন্ত।']]];
+function hmonth(){const p={};new Intl.DateTimeFormat('en-u-ca-islamic-umalqura',{month:'numeric'}).formatToParts(Date.now()+ld('ha',0)*864e5).forEach(x=>p[x.type]=+x.value);return(p.month-1+12)%12}
+function qtHero(){const[y,m,d]=dp(),q=QT[Math.floor(Date.UTC(y,m-1,d)/864e5)%QT.length];return `<div class="hq"><p class="lb">${q[0]?'আজকের আয়াত':'আজকের হাদিস'}</p>${q[0]?`<p class="ar">${q[0]}</p>`:''}<p class="mn">${q[1]}</p><p class="src">${q[2]}</p></div>`}
+function amalStats(){const a=ld('am:'+dk,[]),t=ld('tr:'+dk,[]);return{main:[['নামাজ',t.length,5],['তিলাওয়াত',+a.includes('q'),1],['জিকির',['m','e'].filter(k=>a.includes(k)).length,2],['সদকা',+a.includes('s'),1]],pct:Math.round((a.length+t.length)/(AM.length+5)*100)}}
+function amalCard(){const{main,pct}=amalStats(),c=2*Math.PI*22;return `<div class="card am"><div class="amt"><svg viewBox="0 0 56 56" class="rg"><circle cx="28" cy="28" r="22" fill="none" stroke="var(--ln)" stroke-width="6"/><circle cx="28" cy="28" r="22" fill="none" stroke="var(--au)" stroke-width="6" stroke-linecap="round" stroke-dasharray="${c*pct/100} ${c}" transform="rotate(-90 28 28)"/></svg><div><b>আজকের আমল</b><small>${bn(pct)}% সম্পন্ন</small></div><button class="lk" data-sh="amal">বিস্তারিত ›</button></div><div class="mc">${main.map(([n,v,t])=>`<div class="${v>=t?'ok':''}"><b>${bn(v)}/${bn(t)}</b>${n}</div>`).join('')}</div></div>`}
+function monthCard(){const i=hmonth();return `<button class="card mo" data-sh="month"><span class="ic">${IX.cal}</span><span><b>এই মাসের আমল</b><small>${HM[i]} মাস · ${bn(MN[i].length)}টি বিষয়</small></span><i>›</i></button>`}
+function homeX(){return `<div class="qa">${[['go','pray','qibla','কিবলা','kaaba'],['go','dhikr','tasbih','তাসবিহ','t'],['go','dhikr','dua','দোয়া','b'],['go','more','more','যাকাত','z'],['sh','ft:guide','','নামাজ শিক্ষা','guide'],['sh','ft:quran','','কুরআন','b'],['go','fast','fast','রমজান','moon'],['go','more','more','সব ফিচার','all']].map(([k,a,t,n,i])=>`<button ${k==='go'?`data-go="${a}" data-to="${t}"`:`data-sh="${a}"`}><span class="ic">${IX[i]}</span><span>${n}</span></button>`).join('')}</div>`}
+function featGrid(){return `<div class="ch"><b>সব ফিচার</b><span>ট্যাপ করে দেখুন</span></div><div class="fg">${FT.map(([k,n,i])=>`<button data-sh="ft:${k}"><span class="ic">${IX[i]}</span><b>${n}</b><small>শীঘ্রই আসছে</small></button>`).join('')}</div><div style="height:12px"></div>`}
+let shM=null;
+function renderSh(){if(!shM)return;let t='',h='';
+ if(shM==='amal'){const a=ld('am:'+dk,[]),tr=ld('tr:'+dk,[]);t='আজকের আমল';h=`<div class="row" style="border:0"><span class="n">ফরজ নামাজ (নামাজ ট্যাবে টিক দিন)</span><span class="t">${bn(tr.length)}/৫</span></div>`+AG.map(([g,l])=>`<div class="sub gt">${g}</div>`+l.map(([k,n])=>`<div class="row"><span class="n">${n}</span><button class="ck${a.includes(k)?' on':''}" data-a="${k}" aria-label="${n}">✓</button></div>`).join('')).join('')}
+ else if(shM==='month'){const i=hmonth();t=HM[i]+' মাসের আমল';h=`<p class="note" style="margin-top:0">হিজরি তারিখ চাঁদ দেখার ওপর নির্ভর করে, তাই এক দিন এদিক-ওদিক হতে পারে।</p>`+MN[i].map(([a,d])=>`<div class="card"><b>${a}</b><p class="mn" style="margin:4px 0 8px">${d}</p></div>`).join('')+`<p class="note">প্রতি মাসেই: আইয়্যামে বীজের (চান্দ্র মাসের ১৩, ১৪, ১৫ তারিখ) এবং সোম-বৃহস্পতিবারের নফল রোজা।</p>`}
+ else if(shM==='ft:quran'){t='কুরআন';h='<div id="qb"><p class="note">লোড হচ্ছে…</p></div>'}else if(shM==='ft:khatam'){t='কুরআন খতম';h=khHtml()}else if(shM==='ft:alarm'){t='ফজরের জাগার রিমাইন্ডার';h=wkHtml()}else if(shM==='ft:quiz'){t='দৈনিক কুইজ';h=qzHtml()}else if(shM==='ft:cal'){t='হিজরি ক্যালেন্ডার ও সেটিং';h=calHtml()}
+ else if(shM==='bot'){t='ইসলামি সহকারী';h=botHtml()}else if(shM.startsWith('rm:')){const n=+shM.slice(3),a=ld('rm:'+hp().year,{})[n]||[];t='রমজানের '+bn(n)+' তম দিন';h=RMI.map(([i,l])=>`<div class="row"><span class="n">${l}</span><button class="ck${a.includes(i)?' on':''}" data-rmt="${n}|${i}" aria-label="${l}">✓</button></div>`).join('')+`<div class="card"><b>ইফতারের দোয়া</b><div class="rc"><p class="ar">اللَّهُمَّ لَكَ صُمْتُ وَعَلَىٰ رِزْقِكَ أَفْطَرْتُ</p><p class="mn">হে আল্লাহ, আপনার জন্যই রোজা রেখেছি এবং আপনার দেওয়া রিযিক দিয়েই ইফতার করেছি।</p></div><div class="rc"><p class="ar">ذَهَبَ الظَّمَأُ وَابْتَلَّتِ الْعُرُوقُ وَثَبَتَ الْأَجْرُ إِنْ شَاءَ اللَّهُ</p><p class="mn">পিপাসা দূর হয়েছে, শিরাগুলো সিক্ত হয়েছে এবং ইনশাআল্লাহ সওয়াব নিশ্চিত হয়েছে।</p></div></div>`}
+ else if(shM==='ft:fitra'){t='ফিতরা ও কুরবানি';h=fitraHtml()}else if(shM==='ft:sad'){t='সদকা ট্র্যাকার';h=sadHtml()}
+ else if(shM==='setup'){t='স্বাগতম';h=`<p style="margin:6px 2px">আসসালামু আলাইকুম। শুরু করার আগে দুটি জিনিস ঠিক করে নিন।</p><div class="card"><b>১. আপনার শহর</b><select data-ob="city" style="width:100%;margin-top:8px">${C.map((c,i)=>`<option value="${i}"${i===city?' selected':''}>${c[0]}</option>`).join('')}</select><p class="note">নামাজের সময় এই শহর অনুযায়ী হিসাব হবে।</p></div><div class="card"><b>২. রিমাইন্ডার</b><button class="btn" data-ob="nf">${ld('nf',false)?'রিমাইন্ডার চালু আছে ✓':'ওয়াক্তের রিমাইন্ডার চালু করুন'}</button></div><button class="btn on" data-ob="done">শুরু করুন</button>`}
+ else if(shM==='ft:guide'){t='নামাজ শিক্ষা';h=guideHtml()}else if(shM==='qt'){const q=qtNow();t=q[0]?'আজকের আয়াত':'আজকের হাদিস';h=(q[0]?`<p class="ar">${q[0]}</p>`:'')+`<p style="margin:6px 2px">${q[1]}</p><p class="src">${q[2]}</p>`}else{const f=FT.find(x=>'ft:'+x[0]===shM);if(f){t=f[1];h=`<div class="ctr"><span class="ic big">${IX[f[2]]}</span><br><span class="chip2">শীঘ্রই আসছে</span></div><p style="margin:8px 2px">${f[3]}</p>`}}
+ $('#sht').textContent=t;$('#shc').innerHTML=h;if(shM==='ft:fitra')fzc();if(shM==='bot')botInit();if(shM==='ft:khatam')kzc();if(shM==='ft:quran')qLoad()}
+$('#w').addEventListener('click',e=>{const b=e.target.closest('[data-sh],[data-x]');if(!b)return;if(b.dataset.x!==undefined){shM=null;$('#sh').hidden=true;return}shM=b.dataset.sh;$('#sh').hidden=false;renderSh();$('#sh .shp').scrollTop=0});
+/*F3END*/
+/*F4*/
+const RX={akbar:['اللَّهُ أَكْبَرُ','আল্লাহ সবচেয়ে বড়।'],
+sana:['سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ وَتَبَارَكَ اسْمُكَ وَتَعَالَىٰ جَدُّكَ وَلَا إِلَٰهَ غَيْرُكَ','হে আল্লাহ, আপনি পবিত্র ও প্রশংসিত; আপনার নাম বরকতময়, আপনার মর্যাদা সর্বোচ্চ, আপনি ছাড়া কোনো ইলাহ নেই।'],
+tawuz:['أَعُوذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ','আমি বিতাড়িত শয়তান থেকে আল্লাহর আশ্রয় চাই।'],
+bism:['بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ','পরম করুণাময় অতি দয়ালু আল্লাহর নামে শুরু করছি।'],
+ruku:['سُبْحَانَ رَبِّيَ الْعَظِيمِ','আমার মহান রবের পবিত্রতা ঘোষণা করছি (কমপক্ষে ৩ বার)।'],
+sami:['سَمِعَ اللَّهُ لِمَنْ حَمِدَهُ، رَبَّنَا لَكَ الْحَمْدُ','আল্লাহ তার কথা শুনেছেন, যে তাঁর প্রশংসা করেছে। হে আমাদের রব, সকল প্রশংসা আপনারই।'],
+sajda:['سُبْحَانَ رَبِّيَ الْأَعْلَىٰ','আমার সর্বোচ্চ রবের পবিত্রতা ঘোষণা করছি (কমপক্ষে ৩ বার)।'],
+jalsa:['رَبِّ اغْفِرْ لِي','হে আমার রব, আমাকে ক্ষমা করুন।'],
+tash:['التَّحِيَّاتُ لِلَّهِ وَالصَّلَوَاتُ وَالطَّيِّبَاتُ، السَّلَامُ عَلَيْكَ أَيُّهَا النَّبِيُّ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السَّلَامُ عَلَيْنَا وَعَلَىٰ عِبَادِ اللَّهِ الصَّالِحِينَ، أَشْهَدُ أَنْ لَا إِلَٰهَ إِلَّا اللَّهُ وَأَشْهَدُ أَنَّ مُحَمَّدًا عَبْدُهُ وَرَسُولُهُ','সকল সম্মান, ইবাদত ও পবিত্র বিষয় আল্লাহর জন্য। হে নবী, আপনার ওপর শান্তি, আল্লাহর রহমত ও বরকত বর্ষিত হোক। আমাদের ওপর এবং আল্লাহর নেক বান্দাদের ওপরও শান্তি বর্ষিত হোক। আমি সাক্ষ্য দিচ্ছি আল্লাহ ছাড়া কোনো ইলাহ নেই এবং আরও সাক্ষ্য দিচ্ছি মুহাম্মদ (সা.) তাঁর বান্দা ও রাসুল।'],
+drd:['اللَّهُمَّ صَلِّ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ، اللَّهُمَّ بَارِكْ عَلَىٰ مُحَمَّدٍ وَعَلَىٰ آلِ مُحَمَّدٍ كَمَا بَارَكْتَ عَلَىٰ إِبْرَاهِيمَ وَعَلَىٰ آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ','হে আল্লাহ, মুহাম্মদ (সা.) ও তাঁর পরিবারের ওপর রহমত বর্ষণ করুন, যেমন ইবরাহিম (আ.) ও তাঁর পরিবারের ওপর করেছিলেন। নিশ্চয়ই আপনি প্রশংসিত ও মহিমান্বিত। হে আল্লাহ, মুহাম্মদ (সা.) ও তাঁর পরিবারের ওপর বরকত দিন, যেমন ইবরাহিম (আ.) ও তাঁর পরিবারকে দিয়েছিলেন। নিশ্চয়ই আপনি প্রশংসিত ও মহিমান্বিত।'],
+masura:['اللَّهُمَّ إِنِّي ظَلَمْتُ نَفْسِي ظُلْمًا كَثِيرًا وَلَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ فَاغْفِرْ لِي مَغْفِرَةً مِنْ عِنْدِكَ وَارْحَمْنِي إِنَّكَ أَنْتَ الْغَفُورُ الرَّحِيمُ','হে আল্লাহ, আমি নিজের ওপর অনেক জুলুম করেছি, আপনি ছাড়া গুনাহ ক্ষমাকারী কেউ নেই। তাই আপনার পক্ষ থেকে আমাকে ক্ষমা করুন এবং আমার ওপর দয়া করুন। নিশ্চয়ই আপনি ক্ষমাশীল ও পরম দয়ালু।'],
+salam:['السَّلَامُ عَلَيْكُمْ وَرَحْمَةُ اللَّهِ','আপনাদের ওপর শান্তি ও আল্লাহর রহমত বর্ষিত হোক।'],
+shesh:['اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ','হে আল্লাহ, আপনি শান্তিময়, আপনার কাছ থেকেই শান্তি আসে। হে মহিমা ও সম্মানের অধিকারী, আপনি বরকতময়।'],
+kunut:['اللَّهُمَّ إِنَّا نَسْتَعِينُكَ وَنَسْتَغْفِرُكَ وَنُؤْمِنُ بِكَ وَنَتَوَكَّلُ عَلَيْكَ وَنُثْنِي عَلَيْكَ الْخَيْرَ وَنَشْكُرُكَ وَلَا نَكْفُرُكَ وَنَخْلَعُ وَنَتْرُكُ مَنْ يَفْجُرُكَ، اللَّهُمَّ إِيَّاكَ نَعْبُدُ وَلَكَ نُصَلِّي وَنَسْجُدُ وَإِلَيْكَ نَسْعَىٰ وَنَحْفِدُ وَنَرْجُو رَحْمَتَكَ وَنَخْشَىٰ عَذَابَكَ إِنَّ عَذَابَكَ بِالْكُفَّارِ مُلْحِقٌ','হে আল্লাহ, আমরা আপনার কাছে সাহায্য ও ক্ষমা চাই, আপনার ওপর ঈমান আনি ও ভরসা করি এবং উত্তমভাবে আপনার প্রশংসা করি। আপনার শুকরিয়া আদায় করি, অকৃতজ্ঞ হই না; যে আপনার অবাধ্য হয় তাকে ত্যাগ করি। হে আল্লাহ, আমরা শুধু আপনারই ইবাদত করি, আপনার জন্যই নামাজ পড়ি ও সিজদা করি, আপনার দিকেই ছুটে যাই। আপনার রহমতের আশা করি এবং শাস্তিকে ভয় করি। নিশ্চয়ই আপনার শাস্তি কাফিরদের ওপর পতিত হবে।'],
+janaza:['اللَّهُمَّ اغْفِرْ لِحَيِّنَا وَمَيِّتِنَا وَشَاهِدِنَا وَغَائِبِنَا وَصَغِيرِنَا وَكَبِيرِنَا وَذَكَرِنَا وَأُنْثَانَا، اللَّهُمَّ مَنْ أَحْيَيْتَهُ مِنَّا فَأَحْيِهِ عَلَى الْإِسْلَامِ وَمَنْ تَوَفَّيْتَهُ مِنَّا فَتَوَفَّهُ عَلَى الْإِيمَانِ','হে আল্লাহ, আমাদের জীবিত ও মৃত, উপস্থিত ও অনুপস্থিত, ছোট ও বড়, পুরুষ ও নারীদের ক্ষমা করুন। হে আল্লাহ, আমাদের মধ্যে যাকে জীবিত রাখেন তাকে ইসলামের ওপর রাখুন, আর যাকে মৃত্যু দেন তাকে ঈমানের ওপর মৃত্যু দিন।']};
+const FG={q:'M48 24V58M48 58L46 90H57M48 30L54 42L46 52',t:'M48 24V58M48 58L46 90H57M48 30L59 33L57 17',w:'M48 24V58M48 58L46 90H57M48 30L50 58',r:'M36 52H70M36 52V90H47M70 52L40 72',s:'M14 87L22 91H38L34 64L66 76M66 76L68 86L74 91',j:'M38 91L62 86L44 84M44 84V52M44 56L52 68L60 80',tj:'M38 91L62 86L44 84M44 84V52M44 56L52 68L60 80L66 73',sl:'M38 91L62 86L44 84M44 84V52M44 56L52 68L60 80M56 30H66M63 27L66 30L63 33'};
+const HD={q:[48,14],t:[48,14],w:[48,14],r:[80,49],s:[77,85],j:[44,41],tj:[44,41],sl:[46,41]};
+const fig=k=>`<svg class="fig" viewBox="0 0 100 100" aria-hidden="true"><path class="gd" d="M6 93H94"/><path d="${FG[k]}"/><circle cx="${HD[k][0]}" cy="${HD[k][1]}" r="${k==='s'?6:7}"/></svg>`;
+const ST=[['q','নিয়ত ও দাঁড়ানো','কিবলামুখী হয়ে সোজা দাঁড়ান। যে নামাজ পড়বেন মনে মনে তার নিয়ত করুন (মুখে বলা জরুরি নয়)। দৃষ্টি সিজদার জায়গায় রাখুন।',[]],
+['t','তাকবিরে তাহরিমা','“আল্লাহু আকবার” বলে পুরুষরা দুই হাত কান পর্যন্ত তোলেন, নারীরা কাঁধ পর্যন্ত। এখান থেকে নামাজ শুরু।',['akbar']],
+['q','কিয়াম ও কিরাত','পুরুষরা নাভির নিচে ডান হাত বাঁ হাতের ওপর রাখেন, নারীরা বুকের ওপর। এরপর সানা, তাআউয, বিসমিল্লাহ, সূরা ফাতিহা (শেষে “আমিন”) ও আরেকটি সূরা পড়ুন। সূরাগুলো “সূরা ও দোয়া” ট্যাবে আছে।',['sana','tawuz','bism']],
+['r','রুকু','“আল্লাহু আকবার” বলে ঝুঁকে দুই হাতে হাঁটু ধরুন। পিঠ ও মাথা সমান রাখুন।',['ruku']],
+['w','কওমা (রুকু থেকে ওঠা)','ইমাম ও একা নামাজী “সামিআল্লাহু লিমান হামিদাহ” বলে সোজা হয়ে দাঁড়ান ও “রাব্বানা লাকাল হামদ” বলেন। মুক্তাদি শুধু “রাব্বানা লাকাল হামদ” বলেন।',['sami']],
+['s','সিজদা','“আল্লাহু আকবার” বলে সিজদায় যান। কপাল, নাক, দুই হাত, দুই হাঁটু ও দুই পায়ের আঙুল মাটিতে থাকবে।',['sajda']],
+['j','দুই সিজদার মাঝে বসা','“আল্লাহু আকবার” বলে বসুন: পুরুষরা ডান পা খাড়া রেখে বাঁ পায়ের ওপর, নারীরা দুই পা ডান দিকে বের করে। এরপর আবার সিজদা করে দ্বিতীয় রাকআতের জন্য দাঁড়ান।',['jalsa']],
+['tj','তাশাহহুদ (বৈঠক)','প্রতি দুই রাকআতের পর বসে তাশাহহুদ পড়ুন। শেষ বৈঠকে এরপর দরুদ ও দোয়ায়ে মাসুরাও পড়ুন।',['tash','drd','masura']],
+['sl','সালাম','প্রথমে ডানে, তারপর বাঁয়ে মুখ ফিরিয়ে সালাম দিয়ে নামাজ শেষ করুন।',['salam']]];
+const SP=[['জুমার নামাজ','শুক্রবারে যোহরের বদলে জুমা। ফরজ ২ রাকআত, খুতবা শোনা ও জামাতে পড়া জরুরি; একা পড়া যায় না। হানাফি মতে ৪ রাকআত সুন্নত আগে, ২ রাকআত ফরজ, তারপর ৪ ও ২ রাকআত সুন্নত।',[]],
+['বিতরের নামাজ','ইশার পর ৩ রাকআত ওয়াজিব। তৃতীয় রাকআতে সূরা পড়ে “আল্লাহু আকবার” বলে হাত কান পর্যন্ত তুলে আবার বাঁধুন, তারপর দোয়া কুনুত পড়ে রুকুতে যান।',['kunut']],
+['তারাবিহ','রমজানে ইশার পর ২০ রাকআত (হানাফি মত), প্রতি ২ রাকআতে সালাম ফিরিয়ে। বিতর জামাতে পড়া হয়।',[]],
+['ঈদের নামাজ','ঈদুল ফিতর ও ঈদুল আযহায় ২ রাকআত ওয়াজিব, আজান ও ইকামত ছাড়া। প্রথম রাকআতে সানার পর এবং দ্বিতীয় রাকআতে কিরাতের পর ৩টি করে অতিরিক্ত তাকবির বলা হয় (হাত তুলে)। নামাজের পর খুতবা।',[]],
+['জানাযার নামাজ','ফরজে কিফায়া। দাঁড়িয়ে ৪ তাকবিরে পড়া হয়, রুকু-সিজদা নেই। ১ম তাকবিরের পর সানা, ২য়র পর দরুদ, ৩য়র পর জানাযার দোয়া, ৪র্থর পর সালাম।',['janaza']],
+['সফরের নামাজ (কসর)','প্রায় ৪৮ মাইল (প্রায় ৭৭ কিমি) বা বেশি সফরে যোহর, আসর ও ইশার ৪ রাকআত ফরজ ২ রাকআত পড়তে হয় (হানাফি মত)। ফজর ও মাগরিব বদলায় না। কোথাও ১৫ দিন বা বেশি থাকার নিয়ত করলে পূর্ণ নামাজ পড়তে হয়।',[]],
+['নফল নামাজ','তাহাজ্জুদ: শেষ রাতে, ২ রাকআত থেকে। ইশরাক: সূর্য ওঠার প্রায় ১৫–২০ মিনিট পর ২ রাকআত। চাশত: সকাল গড়ালে ২ রাকআত থেকে। নিষিদ্ধ সময়গুলো নামাজ ট্যাবে দেখুন।',[]]];
+const RK=[['ফজর','২','২ (আগে)'],['যোহর','৪','৪ আগে, ২ পরে'],['আসর','৪','—'],['মাগরিব','৩','২ (পরে)'],['ইশা','৪','২ (পরে)'],['বিতর','৩ (ওয়াজিব)','—']];
+let gT=0;
+const rc=k=>`<div class="rc"><p class="ar">${RX[k][0]}</p><p class="mn">${RX[k][1]}</p></div>`;
+function guideHtml(){const tb=['নামাজের ধাপ','সূরা ও দোয়া','বিশেষ নামাজ'];let h=`<div class="seg">${tb.map((n,i)=>`<button data-gt="${i}" class="${i===gT?'on':''}">${n}</button>`).join('')}</div>`;
+ if(gT===0)h+=`<p class="note">হানাফি মত অনুযায়ী (বাংলাদেশে প্রচলিত)। ছবিগুলো মুখবিহীন সরল চিত্র। মাযহাবভেদে সামান্য পার্থক্য থাকতে পারে, প্রয়োজনে আলেমের পরামর্শ নিন।</p>`+ST.map(([f,t,d,r],i)=>`<div class="card gs"><div class="gf">${fig(f)}</div><b>${bn(i+1)}. ${t}</b><p class="mn" style="margin:4px 0 8px">${d}</p>${r.map(rc).join('')}</div>`).join('')+`<div class="card"><div class="ch"><b>রাকআতের সংখ্যা</b><span>ফরজ · সুন্নাতে মুয়াক্কাদা</span></div>${RK.map(([n,a,b])=>`<div class="row"><span class="n">${n}</span><span class="t">${a} · ${b}</span></div>`).join('')}</div>`;
+ else if(gT===1)h+=[['সানা','sana'],['তাআউয','tawuz'],['বিসমিল্লাহ','bism'],['রুকুর তাসবিহ','ruku'],['রুকু থেকে ওঠার দোয়া','sami'],['সিজদার তাসবিহ','sajda'],['দুই সিজদার মাঝের দোয়া','jalsa'],['তাশাহহুদ','tash'],['দরুদে ইবরাহিম','drd'],['দোয়ায়ে মাসুরা','masura'],['সালাম','salam'],['নামাজের পরের জিকির','shesh']].map(([n,k])=>`<div class="card"><b>${n}</b>${rc(k)}</div>`).join('')+SR.map(s=>`<div class="card"><b>${s[0]}</b><div class="rc"><p class="ar">${s[1]}</p><p class="mn">${s[2]}</p></div></div>`).join('');
+ else h+=SP.map(([n,d,r])=>`<div class="card"><b>${n}</b><p class="mn" style="margin:4px 0 8px">${d}</p>${r.map(rc).join('')}</div>`).join('');
+ return h}
+function qtNow(){const[y,m,d]=dp();return QT[Math.floor(Date.UTC(y,m-1,d)/864e5)%QT.length]}
+function heroB(nk,tr){const c=cur(),t=nxt()[1],sn=streak(),q=qtNow();
+ return `<div class="hero"><div class="hg"><div class="hl"><p>${c?'এখন চলছে':'পরবর্তী ওয়াক্ত'}</p><h2>${nm(c||nk)}</h2><div class="cd" id="cd"></div><p>${nm(nk)} শুরু ${ft(t)}</p></div><button class="hqr" data-sh="qt"><b>${q[0]?'আজকের আয়াত':'আজকের হাদিস'}</b><span>${q[1]}</span><small>${q[2]}</small></button></div>
+ <div class="tl"><div class="bar"><i id="tbar"></i></div><div class="now" id="tnow"></div>${['fajr','sunrise','dhuhr','asr','maghrib','isha'].map(k=>`<em style="left:${pc(T[k])}%"></em><span style="left:${Math.min(Math.max(pc(T[k]),4),96)}%">${k==='sunrise'?'সূর্য':nm(k)}</span>`).join('')}</div>
+ <div class="chips">${sn?`<span class="chip">🔥 ${bn(sn)} দিন</span>`:''}<span class="chip">✓ ${bn(tr.length)}/৫ আদায়</span></div></div>`}
+$('#w').addEventListener('click',e=>{const b=e.target.closest('[data-gt]');if(!b)return;gT=+b.dataset.gt;renderSh();$('#sh .shp').scrollTop=0});
+/*F4END*/
+/*F5*/
+const READY=['guide','ram','fitra','sad','khatam','alarm','quiz','cal'],RMI=[['r','রোজা'],['t','তারাবিহ'],['q','কুরআন তিলাওয়াত']];
+function hp(){const p={};new Intl.DateTimeFormat('en-u-ca-islamic-umalqura',{day:'numeric',month:'numeric',year:'numeric'}).formatToParts(Date.now()+ld('ha',0)*864e5).forEach(x=>{if(x.type!=='literal')p[x.type]=parseInt(x.value)});return p}
+function featGrid(){return `<div class="ch"><b>সব ফিচার</b><span>ট্যাপ করে দেখুন</span></div><div class="fg">${FT.map(([k,n,i])=>`<button ${k==='ram'?'data-go="fast" data-to="fast"':`data-sh="ft:${k}"`}><span class="ic">${IX[i]}</span><b>${n}</b><small>${READY.includes(k)?'চালু':'শীঘ্রই আসছে'}</small></button>`).join('')}</div><div style="height:12px"></div>`}
+function rmCard(){const h=hp(),D=ld('rm:'+h.year,{}),td=h.month===9?h.day:0,tot=Object.values(D).filter(a=>a.includes('r')).length;
+ return `<div class="card"><div class="ch"><b>রমজান ট্র্যাকার</b><span>রোজা ${bn(tot)}/৩০</span></div><div class="rg30">${Array.from({length:30},(_,i)=>{const n=i+1,a=D[n]||[];return `<button class="dy c${a.length}${n===td?' td':''}" data-rm="${n}">${bn(n)}</button>`}).join('')}</div><p class="note">দিনের ঘরে চাপুন, রোজা, তারাবিহ ও তিলাওয়াত টিক দিন। রং গাঢ় হলে বেশি আমল। শেষ দশকের বিজোড় রাতগুলোতে (২১, ২৩, ২৫, ২৭, ২৯) লাইলাতুল কদর খুঁজুন।</p></div>`}
+const tk2=x=>tk(x);
+function fitraHtml(){const L=a=>a.map(([i,l,v])=>`<label class="zf"><span>${l}</span><input inputmode="decimal" data-fz="${i}" value="${v}"></label>`).join('');
+ return `<div class="card"><b>সাদাকাতুল ফিতর</b>${L([['n','পরিবারের সদস্য সংখ্যা','1'],['k','জনপ্রতি পরিমাণ (কেজি গম বা আটা)','1.633'],['p','প্রতি কেজির দাম (৳)','']])}<div class="row nx"><span class="n">মোট ফিতরা</span><span class="t" id="fr">—</span></div><p class="note">ঈদের নামাজের আগে আদায় করা উত্তম। গমের বদলে আটা, খেজুর, কিশমিশ বা সমমূল্য টাকাও দেওয়া যায়। প্রতি বছর ইসলামিক ফাউন্ডেশন বা স্থানীয় আলেমের ঘোষিত পরিমাণ দেখে নিন।</p></div>
+ <div class="card"><b>কুরবানির ভাগ</b>${L([['c','পশুর মোট দাম (৳)',''],['s','ভাগীদার সংখ্যা (সর্বোচ্চ ৭)','7']])}<div class="row nx"><span class="n">জনপ্রতি খরচ</span><span class="t" id="qr">—</span></div><p class="note">ছাগল বা ভেড়ায় ১ জন। গরু, মহিষ বা উটে ৭ জন পর্যন্ত ভাগ নেওয়া যায়। সবার নিয়ত ইবাদতের হতে হবে।</p></div>`}
+function fzc(){const v=k=>{const e=document.querySelector('[data-fz="'+k+'"]');return parseFloat(e&&e.value)||0};$('#fr').textContent=tk(v('n')*v('k')*v('p'));$('#qr').textContent=v('s')?tk(v('c')/v('s')):'—'}
+const sdk=()=>{const[y,m]=dp();return 'sd:'+y+'-'+m};
+function sadHtml(){const D=ld(sdk(),{g:0,i:[]}),tot=D.i.reduce((s,x)=>s+x.a,0),p=D.g?Math.min(100,Math.round(tot/D.g*100)):0;
+ return `<div class="card"><div class="ch"><b>এই মাসের সদকা</b><span>${tk(tot)}${D.g?' / '+tk(D.g):''}</span></div><div class="pb"><i style="width:${p}%"></i></div><label class="zf"><span>মাসিক লক্ষ্য (৳)</span><input inputmode="decimal" id="sdg" value="${D.g||''}"></label><label class="zf"><span>পরিমাণ (৳)</span><input inputmode="decimal" id="sda"></label><label class="zf"><span>কাকে বা কিসে (ঐচ্ছিক)</span><input id="sdn"></label><button class="btn" data-sd="add">সদকা যোগ করুন</button></div>
+ <div class="card"><div class="ch"><b>এই মাসের তালিকা</b><span>${bn(D.i.length)}টি</span></div>${D.i.length?D.i.map((x,j)=>`<div class="row"><span class="n">${x.n||'সদকা'} <small class="note">${bn(x.d)} তারিখ</small></span><span class="t">${tk(x.a)}</span><button class="ck on" data-sd="del" data-i="${j}" aria-label="মুছুন">×</button></div>`).join(''):'<p class="note">এখনো কিছু যোগ হয়নি।</p>'}</div>`}
+async function obNf(){try{const ok=typeof askPerm==='function'?await askPerm():(await Notification.requestPermission())==='granted';sv('nf',ok)}catch(e){sv('nf',false)}if(typeof sched==='function')sched();drawHome();renderSh()}
+$('#w').addEventListener('click',e=>{const b=e.target.closest('[data-rm],[data-rmt],[data-sd],[data-ob]');if(!b)return;const d=b.dataset;
+ if(d.rm){shM='rm:'+d.rm;$('#sh').hidden=false;renderSh()}
+ else if(d.rmt){const[n,i]=d.rmt.split('|'),k='rm:'+hp().year,D=ld(k,{}),a=D[n]||[],x=a.indexOf(i);x<0?a.push(i):a.splice(x,1);D[n]=a;sv(k,D);renderSh();drawM()}
+ else if(d.sd){const k=sdk(),D=ld(k,{g:0,i:[]});if(d.sd==='add'){const a=parseFloat($('#sda').value);if(!a)return;D.g=parseFloat($('#sdg').value)||0;D.i.push({a,n:$('#sdn').value.trim(),d:dp()[2]})}else D.i.splice(+d.i,1);sv(k,D);renderSh()}
+ else if(d.ob==='nf')obNf();else if(d.ob==='done'){shM=null;$('#sh').hidden=true}});
+$('#w').addEventListener('change',e=>{const t=e.target;if(t.dataset.ob==='city'){city=+t.value;sv('city',city);$('#ct').value=city;calc();drawHome();drawQ();drawM();if(typeof sched==='function')sched()}else if(t.id==='sdg'){const k=sdk(),D=ld(k,{g:0,i:[]});D.g=parseFloat(t.value)||0;sv(k,D);renderSh()}});
+$('#w').addEventListener('input',e=>{if(e.target.dataset.fz)fzc()});
+(()=>{const s=$('#sp');if(!s)return;const l=document.querySelector('.lg svg');s.innerHTML=(l&&l.outerHTML?l.outerHTML.replace(/lgd|lcm/g,m=>m+'2'):'')+`<h1>নূর</h1><p class="ar">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p><small>${qtNow()[1]}</small>`;
+ setTimeout(()=>{s.classList.add('out');setTimeout(()=>{s.remove();if(!ld('ob',false)){sv('ob',true);shM='setup';$('#sh').hidden=false;renderSh()}},400)},1500)})();
+/*F5END*/
+/*F6*/
+const AI_URL='';
+const AVS='<svg viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="31" fill="#f3efe4"/><path d="M8 62c2-13 12-19 24-19s22 6 24 19z" fill="#fff"/><path d="M26 44l6 7 6-7" fill="none" stroke="#d6d2c4" stroke-width="1.5"/><ellipse cx="32" cy="29" rx="11" ry="12" fill="#e5c19a"/><g class="bd"><path d="M21 31c0 11 5 18 11 18s11-7 11-18c-3 5-6 7-11 7s-8-2-11-7z" fill="#f7f7f5" stroke="#cfd3d0"/></g><path d="M20 25c0-9 5-13 12-13s12 4 12 13z" fill="#fff" stroke="#cfd3d0"/><path d="M22 21h20M23 17.500h18" stroke="#d9ad4b" stroke-width="1.2" opacity=".8"/><g class="wv" fill="none" stroke="#d9ad4b" stroke-width="2" stroke-linecap="round"><path d="M52 26a8 8 0 0 1 0 10"/><path d="M56 22a13 13 0 0 1 0 18"/></g></svg>';
+const MIC='<svg viewBox="0 0 24 24"><path d="M12 3a3 3 0 0 0-3 3v6a3 3 0 0 0 6 0V6a3 3 0 0 0-3-3zM6 11a6 6 0 0 0 12 0M12 17v4"/></svg>',SND='<svg viewBox="0 0 24 24"><path d="M4 12l16-8-6 16-3-7z"/></svg>';
+const BQ=['নামাজ কয় রাকআত?','ইফতারের দোয়া','যাকাতের নিসাব কত?','ওযুর ফরজ কয়টি?','আশুরার রোজা','কুরবানির নিয়ম'];
+const FW=['হালাল','হারাম','জায়েজ','জায়েয','নাজায়েজ','তালাক','মিরাস','উত্তরাধিকার','ফতোয়া','ফতওয়া','ঘুষ'];
+const FB='এ বিষয়ে আমার কাছে নির্ভরযোগ্য উত্তর নেই। আপনার বিশ্বস্ত আলেম বা ইসলামিক ফাউন্ডেশনের কাছে জিজ্ঞাসা করুন। নামাজ, রোজা, যাকাত, ওযু, দোয়া বা আমল নিয়ে প্রশ্ন করে দেখতে পারেন।';
+const KB=[[['আসসালামু','সালাম'],'ওয়া আলাইকুমুস সালাম ওয়া রাহমাতুল্লাহ। বলুন, কীভাবে সাহায্য করতে পারি?'],
+[['রাকআত','রাকাত','রাকয়াত'],'ফরজ রাকআত: ফজর ২, যোহর ৪, আসর ৪, মাগরিব ৩, ইশা ৪। বিতর ৩ রাকআত ওয়াজিব। সুন্নাতে মুয়াক্কাদা: ফজরের আগে ২, যোহরের আগে ৪ ও পরে ২, মাগরিবের পরে ২, ইশার পরে ২ (হানাফি মত)।'],
+[['সিজদা','সেজদা'],'সিজদায় কপাল, নাক, দুই হাত, দুই হাঁটু ও দুই পায়ের আঙুল মাটিতে থাকে। তাসবিহ: সুবহানা রাব্বিয়াল আ‘লা, কমপক্ষে ৩ বার।'],
+[['রুকু'],'রুকুতে পিঠ ও মাথা সমান রেখে দুই হাতে হাঁটু ধরুন। তাসবিহ: সুবহানা রাব্বিয়াল আযীম, কমপক্ষে ৩ বার।'],
+[['নিষিদ্ধ','মাকরুহ'],'সূর্যোদয়ের সময়, ঠিক দুপুরে ও সূর্যাস্তের সময় নামাজ পড়া নিষিদ্ধ। আনুমানিক সময় নামাজ ট্যাবে দেখুন।'],
+[['ইফতার'],'ইফতারের দোয়া: আল্লাহুম্মা লাকা সুমতু ওয়া আলা রিযকিকা আফতারতু। অর্থ: হে আল্লাহ, আপনার জন্য রোজা রেখেছি এবং আপনার রিযিকে ইফতার করেছি।'],
+[['সাহরি','সেহরি','রোজার নিয়ত','রোজার নিয়ম'],'রোজার নিয়ত মনে মনে করলেই হয়, মুখে বলা জরুরি নয়। সাহরি খাওয়া সুন্নত; ফজরের ওয়াক্ত শুরু হলে সাহরির সময় শেষ।'],
+[['যাকাত','নিসাব'],'নিসাব: ৫২.৫ ভরি রুপা বা ৭.৫ ভরি সোনার মূল্য (রুপার হিসাব ধরা সতর্কতার)। নিসাবের মালিক হয়ে পূর্ণ এক চান্দ্র বছর পার হলে ২.৫% যাকাত দিতে হয়। আরও ট্যাবে যাকাত ক্যালকুলেটর আছে।'],
+[['ফিতরা','ফিতর'],'সাদাকাতুল ফিতর ঈদের নামাজের আগে দেওয়া উত্তম। জনপ্রতি অর্ধ সা‘ (প্রায় ১.৬৩৩ কেজি) গম বা তার মূল্য। প্রতি বছরের ঘোষিত পরিমাণ ইসলামিক ফাউন্ডেশন বা স্থানীয় আলেম থেকে জেনে নিন।'],
+[['জুমা','জুমু'],SP[0][1]],[['বিতর','কুনুত'],SP[1][1]+' দোয়া কুনুত নামাজ শিক্ষার “বিশেষ নামাজ” অংশে আছে।'],[['তারাবিহ','তারাবি'],SP[2][1]],[['ঈদের নামাজ','ঈদুল'],SP[3][1]],[['জানাযা','জানাজা'],SP[4][1]],[['সফর','কসর','মুসাফির'],SP[5][1]],[['তাহাজ্জুদ','ইশরাক','চাশত','নফল নামাজ'],SP[6][1]],
+[['কুরবানি','কোরবানি'],'কুরবানি ১০ থেকে ১২ জিলহজ। গরু, মহিষ ও উটে ৭ জন পর্যন্ত ভাগ নেওয়া যায়, ছাগল-ভেড়ায় ১ জন। বয়স: ছাগল-ভেড়া ১ বছর, গরু-মহিষ ২ বছর, উট ৫ বছর; পশু ত্রুটিমুক্ত হতে হয়।'],
+[['আশুরা','মুহাররম'],'১০ মুহাররমের রোজা আগের এক বছরের গুনাহের কাফফারা। সঙ্গে ৯ বা ১১ তারিখেরও একটি রোজা রাখা উত্তম (সহিহ মুসলিম)।'],
+[['শাওয়াল'],'রমজানের পর শাওয়ালে ছয়টি রোজা রাখলে সারা বছর রোজা রাখার সওয়াব (সহিহ মুসলিম)।'],
+[['কদর'],'লাইলাতুল কদর রমজানের শেষ দশকের বিজোড় রাতে খুঁজতে বলা হয়েছে। দোয়া: আল্লাহুম্মা ইন্নাকা আফুওউন তুহিব্বুল আফওয়া ফা‘ফু আন্নী (হে আল্লাহ, আপনি ক্ষমাশীল, ক্ষমা ভালোবাসেন, তাই আমাকে ক্ষমা করুন)।'],
+[['রমজান'],'রমজানে রোজা, তারাবিহ, কুরআন তিলাওয়াত, শেষ দশ রাতে কদর খোঁজা, দান ও ফিতরা আদায় করুন। রোজা ট্যাবে রমজান ট্র্যাকার আছে।'],
+[['আরাফা','জিলহজ','তাশরিক'],'জিলহজের প্রথম ১০ দিনের নেক আমল আল্লাহর কাছে সবচেয়ে প্রিয়। ৯ জিলহজের (আরাফা) রোজা হাজি ছাড়া অন্যদের জন্য আগের ও পরের এক বছরের গুনাহের কাফফারা। ৯ ফজর থেকে ১৩ আসর পর্যন্ত তাকবিরে তাশরিক (হানাফি মত)।'],
+[['তাসবিহ'],'নামাজের পর সুবহানাল্লাহ ৩৩, আলহামদুলিল্লাহ ৩৩ ও আল্লাহু আকবার ৩৪ বার পড়া সুন্নত। দোয়া ট্যাবে তাসবিহ কাউন্টার আছে।'],
+[['ওযু','অজু','ওজু'],'ওযুর ফরজ ৪টি (হানাফি মত): মুখমণ্ডল ধোয়া, কনুইসহ দুই হাত ধোয়া, মাথার চার ভাগের এক ভাগ মাসেহ করা এবং টাখনুসহ দুই পা ধোয়া। ওযু ভাঙে: প্রস্রাব-পায়খানা, বায়ু নির্গত হওয়া, গভীর ঘুম, অজ্ঞান হওয়া ও শরীর থেকে রক্ত বা পুঁজ গড়িয়ে পড়া।'],
+[['গোসল'],'গোসলের ফরজ ৩টি (হানাফি মত): কুলি করা, নাকে পানি দেওয়া এবং সারা শরীর ভালোভাবে ধোয়া।'],
+[['কিবলা'],'কিবলা কাবার দিকে। নামাজ ট্যাবে আপনার শহর থেকে কিবলার দিক ও কম্পাস পাবেন।']];
+function kbAnswer(q){q=q.toLowerCase();if(/হাদিস|আয়াত|উপদেশ/.test(q)){const x=qtNow();return(x[0]?x[0]+'\n':'')+x[1]+' ('+x[2]+')'}
+ if(FW.some(w=>q.includes(w)))return 'এটি ফতোয়ার বিষয়। আমি ফতোয়া দিতে পারি না। আপনার বিশ্বস্ত আলেম বা ইসলামিক ফাউন্ডেশনের ফতোয়া বিভাগে জিজ্ঞাসা করুন।';
+ let best=null,bs=0;for(const[k,a]of KB){let s=0;k.forEach(w=>{if(q.includes(w))s+=w.length});if(s>bs){bs=s;best=a}}return best}
+let BM=[];
+const esc=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function talk(on){document.querySelectorAll('.av').forEach(a=>a.classList.toggle('talk',!!on))}
+function say(t){if(!ld('bvo',true))return;try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='bn-BD';u.rate=.95;const v=speechSynthesis.getVoices().find(x=>/^bn/i.test(x.lang));if(v)u.voice=v;u.onstart=()=>talk(1);u.onend=u.onerror=()=>talk(0);speechSynthesis.speak(u)}catch(e){}}
+function botHtml(){return `<div class="bt"><span class="av big">${AVS}</span><p>আসসালামু আলাইকুম! আমি ইসলামি সহকারী। নামাজ, রোজা, যাকাত, দোয়া ও আমল নিয়ে জিজ্ঞাসা করুন। আমি ফতোয়া দিই না; জটিল বিষয়ে আলেমের পরামর্শ নিন।</p></div><div class="tools" style="justify-content:flex-start;margin:0 0 4px"><button data-bot="new">নতুন চ্যাট</button><button data-bot="stop">থামান</button></div><div class="bm" id="bm"></div><div class="sg">${BQ.map(q=>`<button data-bq="${q}">${q}</button>`).join('')}</div><div class="bi"><input id="bq" type="text" placeholder="প্রশ্ন লিখুন…" autocomplete="off"><button id="bmic" data-bot="mic" aria-label="কথা বলুন">${MIC}</button><button data-bot="send" aria-label="পাঠান">${SND}</button></div><label class="vo"><input type="checkbox" id="bvo"${ld('bvo',true)?' checked':''}> উত্তর শুনুন</label><details class="adv"><summary>উন্নত সেটিং (AI সংযোগ)</summary><label class="zf"><span>AI সার্ভারের ঠিকানা</span><input id="aiu" type="text" value="${esc(ld('aiu',''))}" placeholder="https://…workers.dev"></label><p class="note">${(ld('aiu','')||AI_URL)?'AI চালু আছে। সংযোগ ব্যর্থ হলে অফলাইন জ্ঞানভান্ডার থেকে উত্তর দেবে।':'এখন অফলাইন জ্ঞানভান্ডারে চলছে। AI চালু করতে ঠিকানা বসান।'}</p></details>`}
+function botInit(){const m=$('#bm');m.innerHTML=BM.map(x=>`<div class="m ${x.r}">${esc(x.t).replace(/\n/g,'<br>')}</div>`).join('');m.scrollTop=1e5}
+async function ask(q){q=q.trim();if(!q)return;BM.push({r:'u',t:q});botInit();let a=null;
+ const U=ld('aiu','')||AI_URL;if(U){const p=BM.slice(-3,-1),h=p.length===2&&p[0].r==='u'?p.map(x=>({role:x.r==='u'?'user':'assistant',content:x.t})):[];try{const r=await fetch(U,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({q,h})});a=(await r.json()).a}catch(e){}}
+ if(!a)a=kbAnswer(q)||FB;BM.push({r:'b',t:a});botInit();say(a)}
+function mic(){const S2=window.SpeechRecognition||window.webkitSpeechRecognition;if(!S2){BM.push({r:'b',t:'এই ডিভাইসে ভয়েস ইনপুট এখনো চালু নেই। আপাতত লিখে প্রশ্ন করুন।'});botInit();return}
+ const r=new S2();r.lang='bn-BD';r.onresult=e=>ask(e.results[0][0].transcript);r.onend=()=>{const b=$('#bmic');if(b)b.classList.remove('on')};$('#bmic').classList.add('on');try{r.start()}catch(x){}}
+$('#bot').innerHTML=`<span class="av">${AVS}</span><span class="bt1"><b>ইসলামি সহকারী</b><small>নামাজ, রোজা, দোয়া নিয়ে প্রশ্ন করুন</small></span><span class="bmic">${MIC}</span>`;
+$('#w').addEventListener('click',e=>{const b=e.target.closest('[data-bq],[data-bot]');if(!b)return;if(b.dataset.bq)ask(b.dataset.bq);else if(b.dataset.bot==='send'){const i=$('#bq');ask(i.value);i.value=''}else mic()});
+$('#w').addEventListener('keydown',e=>{if(e.key==='Enter'&&e.target.id==='bq'){ask(e.target.value);e.target.value=''}});
+$('#w').addEventListener('change',e=>{if(e.target.id==='bvo'){sv('bvo',e.target.checked);if(!e.target.checked){try{speechSynthesis.cancel()}catch(x){}talk(0)}}});
+/*F6END*/
+/*F7*/
+const QZ=[['প্রতিদিন ফরজ নামাজ কয় ওয়াক্ত?',['৩','৪','৫','৬'],2,'ফজর, যোহর, আসর, মাগরিব ও ইশা।'],['ইসলামের স্তম্ভ কয়টি?',['৪','৫','৬','৭'],1,'কালিমা, নামাজ, রোজা, যাকাত ও হজ।'],['কুরআনে সূরা কয়টি?',['১১০','১১৪','১২০','১০০'],1,'কুরআনে মোট ১১৪টি সূরা আছে।'],['প্রথম ওহি কোন সূরার আয়াত দিয়ে শুরু হয়?',['আল-ফাতিহা','আল-আলাক','আল-মুদ্দাসসির','আল-বাকারা'],1,'“ইকরা” দিয়ে সূরা আলাকের প্রথম আয়াতগুলো প্রথম নাজিল হয়।'],['রমজান হিজরি কত নম্বর মাস?',['সপ্তম','অষ্টম','নবম','দশম'],2,'রমজান হিজরি বছরের নবম মাস।'],['যাকাতের সাধারণ হার কত?',['১%','২.৫%','৫%','১০%'],1,'নিসাব পূর্ণ হলে সঞ্চিত সম্পদের ২.৫% যাকাত।'],['জুমার নামাজ কত রাকআত ফরজ?',['২','৩','৪','৬'],0,'জুমার ফরজ ২ রাকআত।'],['নবী (সা.) কোন শহরে জন্মগ্রহণ করেন?',['মদিনা','মক্কা','তায়েফ','জেদ্দা'],1,'তিনি মক্কায় জন্মগ্রহণ করেন।'],['নবী (সা.) হিজরত করে কোথায় যান?',['মক্কা','তায়েফ','মদিনা','কুফা'],2,'মক্কা থেকে মদিনায়।'],['ঈদুল ফিতর কোন হিজরি মাসের প্রথম দিনে?',['রমজান','শাওয়াল','জিলকদ','জিলহজ'],1,'১ শাওয়াল ঈদুল ফিতর।'],['কুরআনের সবচেয়ে বড় সূরা কোনটি?',['আল-ফাতিহা','আলে ইমরান','আল-বাকারা','ইয়াসিন'],2,'সূরা বাকারা, এতে ২৮৬টি আয়াত।'],['জানাযার নামাজে কয়টি তাকবির বলা হয়?',['২','৩','৪','৫'],2,'চারটি তাকবির।'],['আরাফার দিন কত তারিখ?',['৮ জিলহজ','৯ জিলহজ','১০ জিলহজ','১২ জিলহজ'],1,'৯ জিলহজ।'],['নামাজে কিয়ামে প্রথমে সাধারণত কী পড়া হয়?',['সূরা ফাতিহা','সানা','তাশাহহুদ','দরুদ'],1,'তাকবিরে তাহরিমার পর প্রথমে সানা পড়া হয় (হানাফি মত)।']];
+const qIdx=()=>{const[y,m,d]=dp();return Math.floor(Date.UTC(y,m-1,d)/864e5)%QZ.length};
+function qzHtml(){const S=ld('qz',{s:0,l:'',a:-1,t:0}),q=QZ[qIdx()],dn=S.l===dk;
+ return `<div class="card"><div class="ch"><b>আজকের প্রশ্ন</b><span>টানা সঠিক ${bn(S.s)} · মোট ${bn(S.t)}</span></div><p style="margin:6px 0">${q[0]}</p>${q[1].map((o,j)=>`<button class="qo${dn&&j===q[2]?' ok':''}${dn&&j===S.a&&j!==q[2]?' no':''}" data-qz="${j}">${o}</button>`).join('')}${dn?`<p class="note">${S.a===q[2]?'সঠিক উত্তর, মাশাআল্লাহ!':'সঠিক উত্তর: '+q[1][q[2]]+'।'} ${q[3]}</p>`:''}</div>`}
+function khHtml(){const K=ld('kh',{d:30,r:0,p:5}),L=(i,l,v)=>`<label class="zf"><span>${l}</span><input inputmode="numeric" data-kz="${i}" value="${v}"></label>`,R2=(i,l)=>`<div class="row"><span class="n">${l}</span><span class="t" id="${i}">—</span></div>`;
+ return `<div class="card"><b>খতমের পরিকল্পনা</b>${L('d','কত দিনে খতম করতে চান',K.d)}${R2('k1','প্রতিদিন পৃষ্ঠা')}${R2('k2','প্রতি ওয়াক্তে (৫ ভাগে)')}${R2('k3','প্রতিদিন পারা')}</div><div class="card"><b>আমার অগ্রগতি</b>${L('r','এ পর্যন্ত পড়া পৃষ্ঠা',K.r)}${L('p','প্রতিদিন কত পৃষ্ঠা পড়েন',K.p)}<div class="pb"><i id="k4"></i></div>${R2('k5','বাকি')}${R2('k6','খতম হবে প্রায়')}<p class="note">৬০৪ পৃষ্ঠার মুসহাফ (৩০ পারা) ধরে হিসাব। আপনার কুরআনের পৃষ্ঠা সংখ্যা ভিন্ন হলে হিসাব সামান্য ভিন্ন হবে।</p></div>`}
+function kzc(){const g=k=>{const e=document.querySelector('[data-kz="'+k+'"]');return parseFloat(e&&e.value)||0},d=g('d'),r=Math.min(604,g('r')),p=g('p'),T2=(i,v)=>{$('#'+i).textContent=v};sv('kh',{d,r,p});
+ T2('k1',d?bn(Math.ceil(604/d))+' পৃষ্ঠা':'—');T2('k2',d?bn((604/d/5).toFixed(1))+' পৃষ্ঠা':'—');T2('k3',d?bn((30/d).toFixed(1)):'—');$('#k4').style.width=(r/604*100)+'%';
+ T2('k5',bn(604-r)+' পৃষ্ঠা ('+bn(Math.round(r/604*100))+'% সম্পন্ন)');const left=p?Math.ceil((604-r)/p):0;
+ T2('k6',!p?'—':r>=604?'সম্পন্ন':new Date(Date.now()+left*864e5).toLocaleDateString('bn-BD',{day:'numeric',month:'long',year:'numeric',timeZone:'Asia/Dhaka'})+' ('+bn(left)+' দিন)')}
+function wkHtml(){const W=ld('wk',{on:false,m:30});return `<div class="ctr"><span class="ic big">${IX.alarm}</span></div><p style="margin:8px 2px">ফজর শুরু হওয়ার কিছুক্ষণ আগে জাগার জন্য আলাদা রিমাইন্ডার। আজ ফজর শুরু ${ft(T.fajr)}; রিমাইন্ডার বাজবে ${ft(T.fajr-W.m*6e4)}।</p><button class="btn${W.on?' on':''}" data-wk="on">${W.on?'চালু আছে ✓ (বন্ধ করতে চাপুন)':'চালু করুন'}</button><div class="seg" style="margin-top:12px">${[15,30,45,60].map(m=>`<button data-wk="${m}" class="${W.m===m?'on':''}">${bn(m)} মিনিট আগে</button>`).join('')}</div><p class="note">এটি Android এপে নোটিফিকেশন হিসেবে বাজে, ফোনের ঘড়ির অ্যালার্ম নয়। তাই ওয়াক্তের রিমাইন্ডার চালু থাকতে হবে এবং ফোনের ব্যাটারি সেটিংয়ে এপকে বাধামুক্ত রাখতে হবে। ওয়েব ভার্সনে এটি বাজে না।</p>`}
+function calHtml(){const hdp=ms=>{const p={};new Intl.DateTimeFormat('en-u-ca-islamic-umalqura',{day:'numeric',month:'numeric',year:'numeric'}).formatToParts(ms).forEach(x=>{if(x.type!=='literal')p[x.type]=parseInt(x.value)});return p};
+ const base=Date.now()+ld('ha',0)*864e5,h=hdp(base),st=base-(h.day-1)*864e5;let n=h.day;while(n<30&&hdp(base+(n-h.day+1)*864e5).month===h.month)n++;
+ const W={Sat:0,Sun:1,Mon:2,Tue:3,Wed:4,Thu:5,Fri:6},wd=W[new Intl.DateTimeFormat('en-US',{weekday:'short',timeZone:'Asia/Dhaka'}).format(st)]||0,gd=ms=>new Intl.DateTimeFormat('en-US',{day:'numeric',timeZone:'Asia/Dhaka'}).format(ms),z=ld('fz',1);
+ const cells=['শনি','রবি','সোম','মঙ্গল','বুধ','বৃহ','শুক্র'].map(x=>`<b>${x}</b>`).join('')+'<i></i>'.repeat(wd)+Array.from({length:n},(_,k)=>{const i=k+1,c=(i===h.day?'t ':'')+((wd+k)%7===6?'f ':'')+(EV.some(e=>e[1]===h.month&&e[2]===i)?'e':'');return `<div class="${c.trim()}">${bn(i)}<small>${bn(gd(st+k*864e5))}</small></div>`}).join('');
+ return `<div class="ch"><b>${HM[h.month-1]} ${bn(h.year)} হি.</b><span>${bn(n)} দিন</span></div><div class="cal">${cells}</div><p class="note">হিজরি তারিখ চাঁদ দেখার ওপর নির্ভর করে, এক দিন এদিক-ওদিক হতে পারে (সমন্বয়ের বোতাম রোজা ট্যাবে)। সোনালি রেখা মানে ইসলামি দিবস।</p><div class="ch" style="padding-top:12px"><b>অক্ষরের সাইজ</b></div><div class="seg">${[['ছোট',1],['মাঝারি',1.12],['বড়',1.25]].map(([l,v])=>`<button data-fsz="${v}" class="${z===v?'on':''}">${l}</button>`).join('')}</div>`}
+function fz(){if(document.body)document.body.style.zoom=ld('fz',1)}
+$('#w').addEventListener('click',e=>{const b=e.target.closest('[data-qz],[data-wk],[data-fsz]');if(!b)return;const d=b.dataset;
+ if(d.qz!==undefined){const S=ld('qz',{s:0,l:'',a:-1,t:0});if(S.l===dk)return;const j=+d.qz;S.l=dk;S.a=j;if(j===QZ[qIdx()][2]){S.s++;S.t++}else S.s=0;sv('qz',S);renderSh()}
+ else if(d.wk){const W=ld('wk',{on:false,m:30});if(d.wk==='on')W.on=!W.on;else W.m=+d.wk;sv('wk',W);renderSh();if(typeof sched==='function')sched()}
+ else if(d.fsz){sv('fz',parseFloat(d.fsz));fz();renderSh()}});
+$('#w').addEventListener('input',e=>{if(e.target.dataset.kz)kzc()});
+fz();
+/*F7END*/
+/*F8*/
+function micMsg(t){BM.push({r:'b',t});botInit()}
+async function mic(){const P=window.Capacitor&&Capacitor.Plugins&&Capacitor.Plugins.SpeechRecognition,btn=()=>$('#bmic');
+ if(P){try{const a=await P.available();if(a&&a.available===false)throw 0;const p=await P.requestPermissions();if(p&&p.speechRecognition&&p.speechRecognition!=='granted')throw 1;btn()&&btn().classList.add('on');const r=await P.start({language:'bn-BD',maxResults:1,prompt:'প্রশ্ন বলুন',partialResults:false,popup:true});const t=r&&r.matches&&r.matches[0];if(t)ask(t)}catch(e){micMsg('ভয়েস ইনপুট চালু করা যায়নি। ফোনে Google অ্যাপ আছে কি না এবং মাইক্রোফোনের অনুমতি দেওয়া আছে কি না দেখুন। আপাতত লিখে প্রশ্ন করতে পারেন।')}finally{btn()&&btn().classList.remove('on')}return}
+ const S2=window.SpeechRecognition||window.webkitSpeechRecognition;if(!S2){micMsg('এই ডিভাইসে ভয়েস ইনপুট চালু নেই। লিখে প্রশ্ন করুন।');return}
+ const r=new S2();r.lang='bn-BD';r.onresult=e=>ask(e.results[0][0].transcript);r.onend=()=>{btn()&&btn().classList.remove('on')};btn()&&btn().classList.add('on');try{r.start()}catch(x){}}
+$('#w').addEventListener('change',e=>{if(e.target.id==='aiu'){sv('aiu',e.target.value.trim());renderSh()}});
+/*F8END*/
+/*F9*/
+const md=s=>esc(s).replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>').replace(/\*\*([^*]+)\*\*/g,'<b>$1</b>').replace(/\n/g,'<br>');
+const hn=u=>{try{return new URL(u).hostname.replace(/^www\./,'')}catch(e){return u}};
+let TY=false;
+function botInit(){const m=$('#bm');if(!m)return;m.innerHTML=BM.map(x=>`<div class="m ${x.r}">${md(x.t)}${x.s&&x.s.length?`<div class="srs">${x.s.map(u=>`<a class="sr" href="${esc(u.u)}" target="_blank" rel="noopener">${esc(hn(u.u))}</a>`).join('')}</div>`:''}</div>`).join('')+(TY?'<div class="m b ty"><i></i><i></i><i></i></div>':'');m.scrollTop=1e5}
+async function ask(q){q=q.trim();if(!q)return;BM.push({r:'u',t:q});TY=true;botInit();let a=null,s=[];const U=ld('aiu','')||AI_URL;
+ if(U){try{const r=await fetch(U,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({q,h:BM.slice(-11,-1).map(x=>({role:x.r==='u'?'user':'assistant',content:x.t}))})});const j=await r.json();if(!j.err){a=j.a;s=j.src||[]}}catch(e){}}
+ if(!a)a=kbAnswer(q)||FB;TY=false;const m={r:'b',t:'',s};BM.push(m);say(a.replace(/\*\*/g,'').replace(/\[([^\]]+)\]\([^)]+\)/g,'$1'));
+ let i=0;const st=Math.max(2,Math.ceil(a.length/140));await new Promise(res=>{const iv=setInterval(()=>{i+=st;m.t=a.slice(0,i);botInit();if(i>=a.length){clearInterval(iv);res()}},18)})}
+$('#w').addEventListener('click',e=>{const b=e.target.closest('[data-bot="new"],[data-bot="stop"]');if(!b)return;try{speechSynthesis.cancel()}catch(x){}talk(0);if(b.dataset.bot==='new'){BM=[];botInit()}});
+/* কুরআন রিডার (alquran.cloud, ইন্টারনেট থেকে এনে ফোনে সংরক্ষণ) */
+FT.push(['quran','কুরআন (অর্থসহ)','b','সূরা বেছে আরবি ও বাংলা অনুবাদসহ পড়ুন। প্রথমবার ইন্টারনেট লাগে, তারপর পড়া সূরাগুলো অফলাইনেও চলে।']);READY.push('quran');
+const QA='https://api.alquran.cloud/v1/';let QS={v:'list',n:1};
+async function qget(u,k){const c=ld(k,null);if(c)return c;const r=await fetch(QA+u),j=await r.json();if(j.code!==200)throw 0;sv(k,j.data);return j.data}
+async function qEd(){const L=await qget('edition?format=text&language=bn&type=translation','qed'),e=L.find(x=>x.identifier==='bn.bengali')||L[0];return{i:e.identifier,n:e.name||e.englishName}}
+const qList=(L,f)=>L.filter(s=>!f||(s.englishName+s.name+s.number).toLowerCase().includes(f.toLowerCase())).map(s=>`<button class="qr" data-q="${s.number}"><span class="an">${bn(s.number)}</span><span class="n">${esc(s.englishName)}<small>${bn(s.numberOfAyahs)} আয়াত · ${s.revelationType==='Meccan'?'মক্কী':'মাদানী'}</small></span><span class="ar">${s.name}</span></button>`).join('');
+async function qLoad(){const b=$('#qb');if(!b)return;try{
+ if(QS.v==='list'){const L=await qget('surah','qlist');b.innerHTML=`<input id="qf" class="qf" type="text" placeholder="সূরা খুঁজুন (নাম বা নম্বর)" autocomplete="off"><div id="ql">${qList(L,'')}</div>`}
+ else{const ed=await qEd(),[a,t]=await qget('surah/'+QS.n+'/editions/quran-uthmani,'+ed.i,'qs'+QS.n+ed.i);b.innerHTML=`<div class="qh"><button data-q="0">‹ সূরার তালিকা</button><b class="ar">${a.name}</b><small>${esc(a.englishName)} · ${bn(a.numberOfAyahs)} আয়াত</small></div>`+a.ayahs.map((y,i)=>`<div class="ay"><span class="an">${bn(y.numberInSurah)}</span><p class="ar">${y.text}</p><p class="mn">${esc(t.ayahs[i].text)}</p></div>`).join('')+`<p class="note">অনুবাদ: ${esc(ed.n)} (সূত্র: alquran.cloud)। প্রকাশের আগে অনুবাদের লাইসেন্স দেখে নিন।</p>`;$('#sh .shp').scrollTop=0}
+}catch(e){b.innerHTML='<p class="note">কুরআন লোড করা যায়নি। ইন্টারনেট সংযোগ দেখে আবার চেষ্টা করুন। (ওয়েব প্রিভিউতে এটি চলে না, Android এপে চলে।)</p>'}}
+$('#w').addEventListener('click',e=>{const b=e.target.closest('[data-q]');if(!b)return;const n=+b.dataset.q;QS=n?{v:'read',n}:{v:'list',n:1};renderSh()});
+$('#w').addEventListener('input',e=>{if(e.target.id==='qf'){const l=$('#ql');if(l)l.innerHTML=qList(ld('qlist',[]),e.target.value)}});
+addEventListener('keydown',e=>{if(e.key==='Escape'){shM=null;$('#sh').hidden=true}});
+$('#w').addEventListener('click',e=>{if(e.target.closest('.ck')&&navigator.vibrate)navigator.vibrate(8)});
+if(document.body){document.body.classList.add('fx');setTimeout(()=>document.body.classList.remove('fx'),1500)}
+/*F9END*/
 /* নামাজ */
 function drawHome(){
  const tr=ld('tr:'+dk,[]),[nk]=nxt(),di=Math.floor(Date.now()/864e5)%DU.length,d=DU[di];
- $('#home').innerHTML=`<div class="hero"><p>পরবর্তী ওয়াক্ত</p><h2>${nm(nk)}</h2><div class="big" id="nt"></div><div class="cd" id="cd"></div></div>
+ $('#home').innerHTML=`${heroB(nk,tr)}${amalCard()}${monthCard()}${homeX()}${jumaCard()}`;
+ $('#prl').innerHTML=`<button class="card mo" data-sh="ft:guide"><span class="ic">${IX.guide}</span><span><b>নামাজ শিক্ষা</b><small>ধাপে ধাপে ছবি, সূরা, দোয়া ও বিশেষ নামাজ</small></span><i>›</i></button>
  <div class="card"><div class="ch"><b>আজকের নামাজ</b><span>${bn(tr.length)}/৫ আদায়</span></div>${P.map(([k,n])=>`<div class="row${k===nk?' nx':''}"><span class="n">${n}</span><span class="t">${ft(T[k])}</span><button class="ck${tr.includes(k)?' on':''}" data-k="${k}" ${k==='sunrise'?'disabled':''} aria-label="${n} আদায় হয়েছে">✓</button></div>`).join('')}</div>
- <div class="card"><div class="ch"><b>আজকের দোয়া</b></div>${d[0]?`<p class="ar">${d[0]}</p>`:''}<p class="mn">${d[1]}</p><p class="src">${d[2]}</p></div>
+ ${forbCard()}
  <button class="btn${ld('nf',false)?' on':''}" id="nf">${ld('nf',false)?'🔔 রিমাইন্ডার চালু আছে':'🔔 ওয়াক্তের রিমাইন্ডার চালু করুন'}</button>
  <p class="note">সময় গণনা করা হয়েছে (করাচি পদ্ধতি, হানাফি আসর), তাই স্থানীয় মসজিদের সময়সূচির সঙ্গে ১–২ মিনিট ফারাক হতে পারে। রিমাইন্ডার পেতে এই পেজ খোলা রাখতে হবে।</p>
- <div class="tools"><button id="hm" aria-label="হিজরি তারিখ এক দিন কমান">হিজরি −১</button><button id="hp" aria-label="হিজরি তারিখ এক দিন বাড়ান">হিজরি +১</button></div>`;
+ `;
  tickUI()}
 function tickUI(){const[k,t]=nxt(),s=Math.max(0,Math.floor((t-Date.now())/1e3)),f=n=>bn(String(n).padStart(2,'0'));
- if($('#cd')){$('#cd').textContent=f(Math.floor(s/3600))+':'+f(Math.floor(s%3600/60))+':'+f(s%60);$('#nt').textContent=ft(t)}}
+ if($('#cd')){$('#cd').textContent=f(Math.floor(s/3600))+':'+f(Math.floor(s%3600/60))+':'+f(s%60);tlUpdate()}}
 function ping(k){if(!ld('nf',false)||(window.Capacitor&&Capacitor.isNativePlatform&&Capacitor.isNativePlatform()))return;try{if(Notification.permission==='granted')new Notification(nm(k)+'-এর ওয়াক্ত হয়েছে',{body:'নামাজের প্রস্তুতি নিন।'})}catch(e){}}
 function tick(){const n=Date.now(),key=dp().join('-');
  if(key!==dk){dk=key;calc();drawHome();head();draw2();drawM();sched()}
  if(pend&&n>=pend[1]){ping(pend[0]);drawHome()}
  pend=nxt();tickUI()}
-$('#home').addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;
+$('#w').addEventListener('click',async e=>{const b=e.target.closest('button');if(!b)return;
  if(b.dataset.k){const k='tr:'+dk,a=ld(k,[]),i=a.indexOf(b.dataset.k);i<0?a.push(b.dataset.k):a.splice(i,1);sv(k,a);drawHome()}
  else if(b.id==='nf'){if(ld('nf',false)){sv('nf',false)}else{try{sv('nf',await askPerm())}catch(x){sv('nf',false)}}drawHome();sched()}
- else if(b.id==='hm'||b.id==='hp'){sv('ha',ld('ha',0)+(b.id==='hp'?1:-1));drawHome();head()}});
+ else if(b.id==='hm'||b.id==='hp'){sv('ha',ld('ha',0)+(b.id==='hp'?1:-1));drawHome();drawM();head()}});
 /* তাসবিহ */
 let ts=ld('ts',{n:0,z:0,g:33});
 function draw2(){
@@ -161,16 +556,18 @@ function zc(){const v=k=>parseFloat(ZK[k])||0,net=v('c')+v('g')+v('s')+v('b')+v(
  $('#zn').textContent=ns?tk(ns):'দর লিখুন';$('#zt').textContent=tk(Math.max(net,0));
  $('#zz').textContent=!ns?'—':net>=ns?tk(net*.025):'ফরজ নয় (নিসাবের কম)'}
 function drawM(){const f=ld('fs',[]),on=f.includes(dk);
- $('#more').innerHTML=`<div class="card"><div class="ch"><b>সাহরি ও ইফতার</b><span>${C[city][0]}, আজ</span></div>
+ $('#fastc').innerHTML=`<div class="card"><div class="ch"><b>সাহরি ও ইফতার</b><span>${C[city][0]}, আজ</span></div>
  <div class="row"><span class="n">সাহরির শেষ সময়</span><span class="t">${ft(T.fajr)}</span></div>
  <div class="row"><span class="n">ইফতারের সময়</span><span class="t">${ft(T.maghrib)}</span></div>
  <div class="row"><span class="n">আজ রোজা রেখেছি<br><small class="note">মোট ${bn(f.length)} দিন</small></span><button class="ck${on?' on':''}" id="fs" aria-label="আজ রোজা রেখেছি">✓</button></div></div>
- <div class="card"><div class="ch"><b>যাকাত ক্যালকুলেটর</b><span>সব অঙ্ক টাকায়</span></div>${[['c','নগদ ও ব্যাংকে জমা'],['g','সোনার বর্তমান মূল্য'],['s','রুপার বর্তমান মূল্য'],['b','ব্যবসার পণ্যের মূল্য'],['r','পাওনা (ফেরত পাওয়ার আশা আছে)'],['d','আপনার ঋণ ও বকেয়া'],['p','১ ভরি রুপার বাজারদর']].map(([k,l])=>`<label class="zf"><span>${l}</span><input inputmode="decimal" data-z="${k}" value="${ZK[k]||''}"></label>`).join('')}
+ ${rmCard()}${daysCard()}<div class="tools"><button id="hm" aria-label="হিজরি তারিখ এক দিন কমান">হিজরি −১</button><button id="hp" aria-label="হিজরি তারিখ এক দিন বাড়ান">হিজরি +১</button></div>`;
+ $('#morec').innerHTML=`${featGrid()}<div class="card"><div class="ch"><b>যাকাত ক্যালকুলেটর</b><span>সব অঙ্ক টাকায়</span></div>${[['c','নগদ ও ব্যাংকে জমা'],['g','সোনার বর্তমান মূল্য'],['s','রুপার বর্তমান মূল্য'],['b','ব্যবসার পণ্যের মূল্য'],['r','পাওনা (ফেরত পাওয়ার আশা আছে)'],['d','আপনার ঋণ ও বকেয়া'],['p','১ ভরি রুপার বাজারদর']].map(([k,l])=>`<label class="zf"><span>${l}</span><input inputmode="decimal" data-z="${k}" value="${ZK[k]||''}"></label>`).join('')}
  <div class="row"><span class="n">নিসাব (৫২.৫ ভরি রুপা)</span><span class="t" id="zn"></span></div>
  <div class="row"><span class="n">নিট সম্পদ</span><span class="t" id="zt"></span></div>
  <div class="row nx"><span class="n">যাকাত (২.৫%)</span><span class="t" id="zz"></span></div></div>
  <p class="note">সম্পদে পূর্ণ এক চান্দ্র বছর পার হলে যাকাত ফরজ হয়। জটিল ক্ষেত্রে কোনো আলেমের পরামর্শ নিন।</p>
- <div class="ch" style="padding-top:16px"><b>ছোট সূরা</b></div>${SR.map(s=>`<details class="card"><summary>${s[0]}</summary><p class="ar">${s[1]}</p><p class="mn">${s[2]}</p></details>`).join('')}`;zc()}
+ `;
+ $('#sur').innerHTML=`<div class="ch"><b>ছোট সূরা</b></div>${SR.map(s=>`<details class="card"><summary>${s[0]}</summary><p class="ar">${s[1]}</p><p class="mn">${s[2]}</p></details>`).join('')}`;zc()}
 $('#more').addEventListener('click',e=>{if(e.target.id==='fs'){const a=ld('fs',[]),i=a.indexOf(dk);i<0?a.push(dk):a.splice(i,1);sv('fs',a);drawM()}});
 $('#more').addEventListener('input',e=>{const k=e.target.dataset.z;if(k){ZK[k]=e.target.value;sv('zk',ZK);zc()}});
 /* অ্যান্ড্রয়েড এপে ব্যাকগ্রাউন্ড রিমাইন্ডার (Capacitor LocalNotifications) */
@@ -183,13 +580,14 @@ async function sched(){const L=LNp();if(!L)return;
  const[y,m,d]=dp(),c=C[city],list=[];let id=1;
  for(let i=0;i<7;i++){const t=pt(y,m-1,d+i,c[1],c[2]);for(const[k,n]of P){if(k==='sunrise'||t[k]<=Date.now())continue;
   list.push({id:id++,title:n+'-এর ওয়াক্ত হয়েছে',body:'নামাজের প্রস্তুতি নিন',channelId:'adhan',schedule:{at:new Date(t[k]),allowWhileIdle:true}})}}
+ const W0=ld('wk',{on:false,m:30});if(W0.on){for(let i=0;i<7;i++){const t=pt(y,m-1,d+i,c[1],c[2]).fajr-W0.m*6e4;if(t>Date.now())list.push({id:900+i,title:'ফজরের জন্য জাগার সময়',body:'ফজর শুরু হতে '+bn(W0.m)+' মিনিট বাকি। উঠে ওযু করুন।',channelId:'adhan',schedule:{at:new Date(t),allowWhileIdle:true}})}}
  if(list.length)await L.schedule({notifications:list})}catch(e){}}
 /* শহর, থিম, ট্যাব */
 $('#ct').innerHTML=C.map((c,i)=>`<option value="${i}"${i===city?' selected':''}>${c[0]}</option>`).join('');
 $('#ct').onchange=e=>{city=+e.target.value;sv('city',city);calc();drawHome();drawQ();drawM();sched()};
 $('#th').onclick=()=>{const r=document.documentElement,d=matchMedia('(prefers-color-scheme: dark)').matches,cur=r.dataset.theme||(d?'dark':'light'),nx=cur==='dark'?'light':'dark';r.dataset.theme=nx;sv('theme',nx)};
 const th=ld('theme',null);if(th)document.documentElement.dataset.theme=th;
-document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>{document.querySelectorAll('nav button').forEach(x=>x.setAttribute('aria-current',x===b));
- ['home','tasbih','qibla','dua','more'].forEach(t=>$('#'+t).hidden=t!==b.dataset.t);scrollTo(0,0)});
+const go=t=>{document.querySelectorAll('nav button').forEach(x=>x.setAttribute('aria-current',x.dataset.t===t));['home','pray','fast','dhikr','more'].forEach(i=>$('#'+i).hidden=i!==t);scrollTo(0,0)};
+document.querySelectorAll('nav button').forEach(b=>b.onclick=()=>go(b.dataset.t));
 dk=dp().join('-');calc();head();drawHome();draw2();drawQ();drawM();pend=nxt();sched();setInterval(tick,1000);
 </script></body></html>
