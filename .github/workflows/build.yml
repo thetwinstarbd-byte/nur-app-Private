@@ -15,11 +15,15 @@ jobs:
           java-version: 17
       - run: npm install
       - run: npx cap add android
+      - name: Speech recognition plugin (optional, build continues if it fails)
+        run: npm install @capacitor-community/speech-recognition@^6.0.0 || echo "speech plugin skipped"
       - name: Adhan sound and permission
         run: |
           mkdir -p android/app/src/main/res/raw
+          cp -r assets/res/. android/app/src/main/res/
           if [ -f assets/adhan.wav ]; then cp assets/adhan.wav android/app/src/main/res/raw/adhan.wav; fi
           sed -i 's#<application#<uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM"/>\n    <application#' android/app/src/main/AndroidManifest.xml
+          sed -i 's#<application#<uses-permission android:name="android.permission.RECORD_AUDIO"/>\n    <queries><intent><action android:name="android.speech.RecognitionService"/></intent></queries>\n    <application#' android/app/src/main/AndroidManifest.xml
       - run: npx cap sync android
       - run: cd android && chmod +x gradlew && ./gradlew assembleDebug
       - uses: actions/upload-artifact@v4
